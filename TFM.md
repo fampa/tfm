@@ -6,6 +6,7 @@ date: '24/02/2021'
 lang: ca
 toc: true
 numbersections: true
+bibliography: bibliography.bib
 # fontfamily: FiraSans
 linkcolor: blue
 urlcolor: blue
@@ -38,11 +39,20 @@ Els objectius del treball són:
 
 L'aplicació segueix un enfocament basat en el model d'aplicació web progressiva (PWA[^pwa]) en el _frontend_ i una API basada en GraphQL per al _backend_.
 
+[^pwa]: De les segles en anglés Progressive Web App.
+
 ### PWA
+
+El model d'aplicació web progressiva està basat en estàndards web i no en cap _framework_ o empresa. Per a que una aplicació web siga considerada PWA, ha de complir una sèrie de requisits. Segons Sam Richard [©richard_what_2020], ha de ser:
+
+- Capaç: Gràcies a les cada vegada més extenses API web, combinades amb l'ús de _web assembly_, hi ha poques coses que una web app no siga capaç de realitzar (xat en temps real, notificacions push, geolocalització, etc...)
+- Confiable: una PWA s'ha de sentir ràpida, tant en la càrrega com en la interacció de l'usuari. A més a més ha de permetre certa usabilitat amb una connexió a la xarxa dèbil o inexistent. Açò és possible gràcies als _service workers_.
+- Instal·lable: una PWA s'executa en la seua pròpia finestra i ha de poderser llançada desde l'escriptori de l'usuari.
 
 ### GraphQL
 
-[^pwa]: De les segles en anglés Progressive Web App.
 
 ## Planificació del Treball
+
+# Bibliografia
 
