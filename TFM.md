@@ -19,6 +19,7 @@ header-includes: |
     \usepackage{setspace}
     \doublespacing
 ---
+
 # Introducció
 
 ## Context i justificació del Treball
