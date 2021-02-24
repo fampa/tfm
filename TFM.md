@@ -35,7 +35,7 @@ Els objectius del treball són:
 - La modernització en la gestió de les AMPA, integrant el catàleg d'eines i aplicacions de gestió obsoletes en una única aplicació centralitzada i allotjada a un servidor web.
 - Substituir les eines privatives que poguéssin estar usant en l'actualitat per una aplicació web de codi obert que puga ser usada i adaptada per totes les ampes de manera lliure.
 
-## Enfocament i mètode seguit
+## Enfocament i mètode
 
 L'aplicació segueix un enfocament basat en el model d'aplicació web progressiva (PWA[^pwa]) en el _frontend_ i una API basada en GraphQL per al _backend_.
 
@@ -50,6 +50,8 @@ El model d'aplicació web progressiva està basat en estàndards web i no en cap
 - Instal·lable: una PWA s'executa en la seua pròpia finestra i ha de poderser llançada desde l'escriptori de l'usuari.
 
 ### GraphQL
+
+GraphQL és un llenguatge query per a APIs i temps d'execució que proporciona de manera automàtica descripció de les dades en que figuren a la API i permeten obtenir només aquells camps que ens interessen d'es d'un únic _endpoint_ [@noauthor_graphql_nodate].
 
 
 ## Planificació del Treball
