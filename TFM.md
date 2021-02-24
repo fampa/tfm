@@ -32,9 +32,17 @@ Els objectius del treball són:
 
 - El plantejament de les necessitats de les AMPA que puguen ser assolides mitjançant una aplicació web i que plasmarem en forma de requeriments.
 - La modernització en la gestió de les AMPA, integrant el catàleg d'eines i aplicacions de gestió obsoletes en una única aplicació centralitzada i allotjada a un servidor web.
-- Substituir les eines privatives que poguéssin estar usant en l'actualitat per una aplicació web de codi obert que puga ser usada i adaptada per totes les ampesde manera lliure.
+- Substituir les eines privatives que poguéssin estar usant en l'actualitat per una aplicació web de codi obert que puga ser usada i adaptada per totes les ampes de manera lliure.
 
 ## Enfocament i mètode seguit
 
-## Planificació del Treball (han de constar les PACs que es realitzaran durant el curs, així com les addicionals consensuades amb el consultor).
+L'aplicació segueix un enfocament basat en el model d'aplicació web progressiva (PWA[^pwa]) en el _frontend_ i una API basada en GraphQL per al _backend_.
+
+### PWA
+
+### GraphQL
+
+[^pwa]: De les segles en anglés Progressive Web App.
+
+## Planificació del Treball
 
