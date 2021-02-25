@@ -4,6 +4,8 @@ abstract: "El present **Treball Final de Màster** planteja el desenvolupament d
 author: 'Josep V. Monjo'
 date: '24/02/2021'
 lang: ca
+include-before:
+- '`\newpage{}`{=latex}'
 toc: true
 numbersections: true
 bibliography: ["bibliography.bib"]
@@ -20,6 +22,8 @@ header-includes: |
     \usepackage{setspace}
     \doublespacing
 ---
+
+\newpage{}
 
 # Introducció
 
@@ -99,5 +103,7 @@ Escriurem els tests unitaris que necessitem i farem les proves d'integració i f
 ## Llançament
 
 Actualitzarem les DNS del domini del client per a que apunte a la versió de producció de l'aplicació.
+
+# Test
 
 # Bibliografia
