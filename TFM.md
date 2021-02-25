@@ -38,7 +38,7 @@ Els objectius del treball són:
 - Substituir les eines privatives que poguéssin estar usant en l'actualitat per una aplicació web de codi obert que puga ser usada i adaptada per totes les AMPA de manera lliure.
 - Evitar l'ús de formularis en paper i minimitzar el contacte personal.
 
-## Enfocament i mètode
+## Enfocament i tecnologies
 
 L'aplicació segueix un enfocament basat en el model d'aplicació web progressiva (PWA[^pwa]) en el _frontend_ i una API basada en GraphQL per al _backend_.
 
@@ -56,6 +56,48 @@ El model d'aplicació web progressiva està basat en estàndards web i no en cap
 
 GraphQL és un llenguatge query per a APIs i temps d'execució que proporciona de manera automàtica descripció de les dades que figuren a la API i permet obtenir només aquells camps que ens interessen des d'un únic _endpoint_ [@noauthor_graphql_nodate].
 
+## Metodologia
+
+S'emprarà una metodologia de tipus _waterfall_. Per tant es presentarà el document de requeriments al client per a que el valide, i una vegada fet procedirem a executar les tasques necessàries de manera seqüencial.
+
+Les etapes per les que passarem seran les que detallarem al següent apartat de planificació del treball.
+
 ## Planificació del Treball
+
+### Requeriments
+
+Elaboració i aprovació per part del client del document de requeriments de l'aplicació. Una vegada tancat aquest document iniciarem la següent fase.
+
+## Disseny
+
+Elaboració del disseny de l'aplicació. S'elaborarà un _wireframe_ de baixa fidelitat i una vegada validat per part del client s'elaborarà un _mockup_ del disseny final.
+
+Una vegada aprovat el disseny final passarem a la següent fase.
+
+## Desenvolupament
+
+### Backend
+
+Instal·larem el l'eina [Hasura](https://hasura.io/) a un servidor VPS contractat pel client. Això ens facilitarà tindre en funcionament una base de dades postgreSQL i un servidor graphQL de manera ràpida.
+
+Dissenyarem les taules i les relacions necessàries, partint dels continguts de la base de dades que usen actualment, MS Access.
+
+Configurarem el sistema d'autenticació amb [Firebase](https://firebase.google.com/) i el d'autorització amb _Hasura_.
+
+### Frontend
+
+Instal·larem localment el framework [Quasar](https://quasar.dev/), basat en VueJS.
+
+Elaborarem les rutes necessàries per a la nostra app així com el sistema d'autenticació i autorització.
+
+Adaptarem la nostra app per que complisca els requisits d'una PWA i ens assegurarem que hem acomplit tots els requeriments.
+
+## Proves
+
+Escriurem els tests unitaris que necessitem i farem les proves d'integració i funcionals que calguen.
+
+## Llançament
+
+Actualitzarem les DNS del domini del client per a que apunte a la versió de producció de l'aplicació.
 
 # Bibliografia
