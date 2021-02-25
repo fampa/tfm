@@ -46,7 +46,7 @@ L'aplicació segueix un enfocament basat en el model d'aplicació web progressiv
 
 ### PWA
 
-El model d'aplicació web progressiva està basat en estàndards web i no en cap _framework_ o empresa. Per a que una aplicació web siga considerada PWA, ha de complir una sèrie de requisits. Segons Sam Richard [@richard_what_2020], ha de ser:
+El model d'aplicació web progressiva està basat en estàndards web i no en cap _framework_ o empresa. Per a que una aplicació web siga considerada PWA, ha de complir una sèrie de requisits que podríem dividir en tres grans àrees [@richard_what_2020]:
 
 - Capaç: Gràcies a les cada vegada més extenses API web, combinades amb l'ús de _web assembly_, hi ha poques coses que una web app no siga capaç de realitzar (xat en temps real, notificacions push, geolocalització, etc...)
 - Confiable: una PWA s'ha de sentir ràpida, tant en la càrrega com en la interacció de l'usuari. A més a més ha de permetre certa usabilitat amb una connexió a la xarxa dèbil o inexistent. Açò és possible gràcies als _service workers_.
@@ -54,7 +54,7 @@ El model d'aplicació web progressiva està basat en estàndards web i no en cap
 
 ### GraphQL
 
-GraphQL és un llenguatge query per a APIs i temps d'execució que proporciona de manera automàtica descripció de les dades que figuren a la API i permet obtenir només aquells camps que ens interessen des d'un únic _endpoint_ [@noauthor_graphql_nodate].
+GraphQL és un llenguatge query per a APIs i temps d'execució que proporciona de manera automàtica descripció de les dades que figuren a la API i permet obtenir només aquells camps que ens interessen des d'un únic _endpoint_.
 
 ## Metodologia
 
