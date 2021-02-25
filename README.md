@@ -28,4 +28,12 @@ Idiomes extra
 
 `sudo apt-get install texlive-lang-spanish`
 
+Gestió de la bibliografia
+
+`sudo apt install pandoc-citeproc`
+
+També cal tenir en compte que el _output_ de pandoc necessita les següents opcions:
+
+`-f markdown-implicit_figures --highlight-style=zenburn --filter=pandoc-citeproc`
+
 El treball s'ha seqüenciat en diferents entregues (PAC) que figuren com a [releases](https://github.com/fampa/tfm/releases).
