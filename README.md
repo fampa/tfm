@@ -34,6 +34,6 @@ Gestió de la bibliografia
 
 També cal tenir en compte que el _output_ de pandoc necessita les següents opcions:
 
-`-f markdown-implicit_figures --highlight-style=zenburn --filter=pandoc-citeproc`
+`-f markdown-implicit_figures --highlight-style=zenburn --citeproc`
 
 El treball s'ha seqüenciat en diferents entregues (PAC) que figuren com a [releases](https://github.com/fampa/tfm/releases).
