@@ -21,8 +21,8 @@ header-includes: |
 # Especificacions
 
 - Disseny _responsive_
-
 - Dos tipus d'usuari (administrador, afiliat)
+- Multiidioma (català, castellà)
 
 Un afiliat ha de poder:
 
