@@ -74,7 +74,7 @@ Elaboració i aprovació per part del client del document de requeriments de l'a
 
 ## Disseny
 
-Elaboració del disseny de l'aplicació. S'elaborarà un _wireframe_ de baixa fidelitat i una vegada validat per part del client s'elaborarà un _mockup_ del disseny final.
+Elaboració del disseny de l'aplicació. S'elaborarà un _wireframe_ de baixa fidelitat i/o un _mockup_ d'alta fidelitat del disseny final.
 
 Una vegada aprovat el disseny final passarem a la següent fase.
 
@@ -87,6 +87,8 @@ Instal·larem el l'eina [Hasura](https://hasura.io/) a un servidor VPS contracta
 Dissenyarem les taules i les relacions necessàries, partint dels continguts de la base de dades que usen actualment, MS Access.
 
 Configurarem el sistema d'autenticació amb [Firebase](https://firebase.google.com/) i el d'autorització amb _Hasura_.
+
+Addicionalment posarem en marxa un petit servidor _NodeJS_ per gestionar transaccions amb dades sensibles com per exemple certes claus API, i els mecanismes per autoritzar a un administrador, i d'altres com ara l'enviament de missatges per correu electrònic i de notificacions push.
 
 ### Frontend
 
@@ -103,7 +105,5 @@ Escriurem els tests unitaris que necessitem i farem les proves d'integració i f
 ## Llançament
 
 Actualitzarem les DNS del domini del client per a que apunte a la versió de producció de l'aplicació.
-
-# Test
 
 # Bibliografia
