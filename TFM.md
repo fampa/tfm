@@ -1,5 +1,5 @@
 ---
-title: "Aplicació Web Progressiva (PWA) de gestió d'una AMPA"
+title: "Desenvolupament d'una _Progressive Web App_ (PWA) de gestió d'una AMPA"
 abstract: > 
     El present **Treball Final de Màster** planteja el desenvolupament d'una PWA que facilitarà la gestió de les AMPA a més a més de fomentar la participació dels propis pares, propiciar la sol·licitud de serveis de manera online, així com facilitar la comunicació al sí de l'associació mitjançant notificacions push.
 
