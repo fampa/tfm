@@ -42,7 +42,7 @@ header-includes: |
 
 ## Context
 
-No cal recordar que el context actual de pandèmia mundial facilita que cada vegada més la gent estiga a sa casa i realitze totes les seues gestions de manera telemàtica, posant de relleu la importància
+No cal recordar que el context actual de pandèmia mundial facilita que cada vegada més la gent estiga a sa casa i realitze totes les seues gestions de manera telemàtica, posant de relleu la importància.
 
 ## Justificació del Treball
 
@@ -134,7 +134,7 @@ Pendent
 
 L'aplicació constarà de les següents parts:
 
-- Una base de dades postgreSQL gestionada per una API GraphQL, mijançant el _framework_ _Hasura_.
+- Una base de dades postgreSQL gestionada per una API GraphQL, mitjançant el _framework_ _Hasura_.
 - Un servidor NodeJS
 - Un _frontend_ VueJS mitjançant el framework _Quasar_.
 - Un servei d'autenticació mitjançant _Firebase_.
