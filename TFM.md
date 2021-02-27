@@ -42,7 +42,9 @@ header-includes: |
 
 ## Context
 
-No cal recordar que el context actual de pandèmia mundial facilita que cada vegada més la gent estiga a sa casa i realitze totes les seues gestions de manera telemàtica, posant de relleu la importància.
+No cal recordar que el context actual de pandèmia mundial facilita que cada vegada més la gent estiga a sa casa i realitze totes les seues gestions de manera telemàtica, posant de relleu la importància de les eines digitals i de telegestió com ara videoconferències, administració electrònica, teletreball, etc...
+
+És en aquest context que sorgeix la necessitat de modernitzar la gestió del AMPA.
 
 ## Justificació del Treball
 
