@@ -32,6 +32,8 @@ lang: ca
 include-before:
 - '`\newpage{}`{=latex}'
 toc: true
+lot: true
+lof: true
 numbersections: true
 bibliography: ["bibliography.bib"]
 fontfamily: lmodern
@@ -146,7 +148,7 @@ Actualitzarem les DNS del domini del client per a que apunte a la versió de pro
 
 # Continguts
 
-Pendent
+WIP
 
 # Metodologia
 
@@ -154,7 +156,9 @@ S'emprarà una metodologia de tipus _waterfall_ amb retroalimentació. Per tant 
 
 # Arquitectura de l'aplicació
 
-Pendent
+WIP
+
+![Diagrama de flux](img/diagrama-flux.svg){#fig:diagramaFlux}
 
 # Plataforma de desenvolupament
 
@@ -196,13 +200,14 @@ PAC | Activitat | Inici | Fi
 " | Elaborar presentació | " | "
 " | Presentació en vídeo | " | "
 " | Elaborar autoinforme d'avaluació | " | "
+Table: Planificació del treball
 
 # Procés de treball/desenvolupament
 
-Pendent
+WIP
 
 # CI/CD
 
-Pendent
+WIP
 
 # Bibliografia
