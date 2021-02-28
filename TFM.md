@@ -54,6 +54,19 @@ No cal recordar que el context actual de pandèmia mundial facilita que cada veg
 
 És en aquest context que sorgeix la necessitat de modernitzar la gestió del AMPA.
 
+En un primer moment es va plantejar la possibilitat d'elaborar un model _SaaS_[^sass]. En aquest cas l'aplicació podria contenir la gestió de diferents AMPA i cadascuna d'elles podria tindre el seu propi subdomini. Aquest és el model més freqüent al mercat per a quest tipus de gestió. Per exemple:
+
+- [Mi ampa](https://miampa.com/)
+- [playoff gestión de asociaciones](https://playoffinformatica.com/gestion-de-asociaciones/)
+- [AmpaSoft](https://ampasoft.es/)
+- [AmpaNet](https://www.ampanet.es/)
+- [EduTeca](https://edutecaservicios.es/software-especializado/)
+- [GesAmpa](https://gesampa.com/joomla/)
+
+No obstant aquesta possibilitat es va descartar per que la finalitat inicial no era muntar un negoci _SaaS_ si no desenvolupar internament una eina d'autoconsum, fent-la el més oberta i transparent possible per a que puga ser implementada a altres A MPA o associacions que no vulguen un model de subscripció si no autogestionar-se.
+
+[^sass]: De les segles en anglès _Software as a Service_.
+
 ## Justificació del Treball
 
 La gestió de les Associacions de Mares i Pares d'Alumnes inclou bases de dades de pares, d'alumnes, de pagament de quotes, de serveis, etc... Aquesta tasca s'ha realitzat tradicionalment de manera offline (MS Excel, MS Access,...). El canvi a una eina online facilitarà no només aquesta gestió si no que propiciarà la participació dels propis pares i mares en la gestió i actualització de les seues dades així com en la sol·licitud de serveis que ofereix la seua AMPA de manera online, evitant l'ús de formularis en paper i minimitzant el contacte físic, aspecte aquest molt important en aquests temps de pandèmia mundial.
@@ -62,11 +75,7 @@ A més a més facilitarà la comunicació dels membres de la Junta de govern del
 
 # Descripció
 
-En un primer moment es va plantejar la possibilitat d'elaborar un model _SaaS_[^sass]. En aquest cas l'aplicació podria contenir la gestió de diferents AMPA i cadascuna d'elles podria tindre el seu propi subdomini. No obstant aquesta possibilitat es va descartar per falta de temps, ja que aquest model incrementaria la complexitat.
-
-[^sass]: De les segles en anglès _Software as a Service_.
-
-Per això s'ha decidit finalment decantar-nos per un enfocament basat en el model d'aplicació web progressiva (PWA[^pwa]) en el _frontend_ i una API basada en GraphQL per al _backend_.
+Ens hem decidit finalment decantar-nos per un enfocament basat en el model d'aplicació web progressiva (PWA[^pwa]) en el _frontend_ en combinació amb una API basada en GraphQL per al _backend_.
 
 [^pwa]: De les segles en anglès _Progressive Web App_.
 
@@ -147,7 +156,7 @@ Pendent
 
 L'aplicació constarà de les següents parts:
 
-- Una base de dades postgreSQL gestionada per una API GraphQL, mitjançant el _framework_ _Hasura_.
+- Una base de dades postgreSQL gestionada per una API GraphQL, mitjançant el _framework Hasura_.
 - Un servidor NodeJS
 - Un _frontend_ VueJS mitjançant el framework _Quasar_.
 - Un servei d'autenticació mitjançant _Firebase_.
