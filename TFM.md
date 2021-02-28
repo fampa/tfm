@@ -2,6 +2,12 @@
 title: "Desenvolupament d'una _Progressive Web App_ (PWA) de gestió d'una AMPA"
 abstract: > 
     El present **Treball Final de Màster** planteja el desenvolupament d'una PWA que facilitarà la gestió de les AMPA a més a més de fomentar la participació dels propis pares, propiciar la sol·licitud de serveis de manera online, així com facilitar la comunicació al sí de l'associació mitjançant notificacions push.
+    
+    \newline{}
+
+    \newline{}
+
+    Paraules clau: PWA, AMPA, GraphQL, VueJS, NodeJS
 
     \newline{}
 
@@ -14,6 +20,8 @@ abstract: >
     \newline{}
 
     _This **Final Master's Thesis** proposes the development of a PWA that will facilitate the management of Parents Associations in addition to encouraging the participation of parents themselves, promote the request for services online, as well as facilitate communication within the association through push notifications._
+
+    _keywords: PWA, AMPA, GraphQL, VueJS, NodeJS_
 author: 'Josep V. Monjo'
 date: '24/02/2021'
 lang: ca
@@ -54,37 +62,41 @@ A més a més facilitarà la comunicació dels membres de la Junta de govern del
 
 # Descripció
 
-L'aplicació segueix un enfocament basat en el model d'aplicació web progressiva (PWA[^pwa]) en el _frontend_ i una API basada en GraphQL per al _backend_.
+En un primer moment es va plantejar la possibilitat d'elaborar un model _SaaS_[^sass]. En aquest cas l'aplicació podria contenir la gestió de diferents AMPA i cadascuna d'elles podria tindre el seu propi subdomini. No obstant aquesta possibilitat es va descartar per falta de temps, ja que aquest model incrementaria la complexitat.
 
-[^pwa]: De les segles en anglés Progressive Web App.
+[^sass]: De les segles en anglès _Software as a Service_.
 
-El model d'aplicació web progressiva està basat en estàndards web i no en cap _framework_ o empresa. Per a que una aplicació web siga considerada PWA, ha de complir una sèrie de requisits que podríem dividir en tres grans àrees [@richard_what_2020]:
+Per això s'ha decidit finalment decantar-nos per un enfocament basat en el model d'aplicació web progressiva (PWA[^pwa]) en el _frontend_ i una API basada en GraphQL per al _backend_.
 
-- Capaç: Gràcies a les cada vegada més extenses API web, combinades amb l'ús de _web assembly_, hi ha poques coses que una web app no siga capaç de realitzar (xat en temps real, notificacions push, geolocalització, etc...)
-- Confiable: una PWA s'ha de sentir ràpida, tant en la càrrega com en la interacció de l'usuari. A més a més ha de permetre certa usabilitat amb una connexió a la xarxa dèbil o inexistent. Açò és possible gràcies als _service workers_.
+[^pwa]: De les segles en anglès _Progressive Web App_.
+
+El model d'aplicació web progressiva està basat en estàndards web i no en cap _framework_ o empresa. Per a que una aplicació web siga considerada **PWA**, ha de complir una sèrie de requisits que podríem dividir en tres grans àrees [@richard_what_2020]:
+
+- Capaç: Gràcies a les cada vegada més extenses API web, hi ha poques coses que una web app no siga capaç de realitzar avui en dia (xat en temps real, notificacions push, geolocalització, etc...).
+- Confiable: una PWA s'ha de sentir ràpida, tant en la càrrega com en la interacció amb l'usuari. A més a més ha de permetre certa usabilitat amb una connexió a la xarxa dèbil o inexistent. Açò és possible gràcies als _service workers_.
 - Instal·lable: una PWA s'executa en la seua pròpia finestra i ha de poder ser llançada des de l'escriptori de l'usuari.
 
-GraphQL és un llenguatge query per a APIs i temps d'execució que proporciona de manera automàtica descripció de les dades que figuren a la API i permet obtenir només aquells camps que ens interessen des d'un únic _endpoint_.
+Pel que fa a **GraphQL** és un llenguatge query per a APIs que proporciona de manera automàtica una documentació de les dades que poden ser extretes de la API, autocompletat de les _queries_ i a més a més permet obtenir només aquells camps que ens interessen des d'un únic _endpoint_.
 
 El projecte constarà de les següents fases.
 
 ## Investigació/Requeriments
 
-Elaboració i aprovació per part del client del document de requeriments de l'aplicació. Una vegada tancat aquest document iniciarem la següent fase.
+Investigació de les característiques que haurà de tenir l'aplicació en base a les necessitats d'una AMPA, seguit de l'elaboració d'un document de requeriments que haurà de ser aprovat per part del client. Una vegada tancat aquest document iniciarem la següent fase.
 
 ## Disseny
 
 Elaboració del disseny de l'aplicació. S'elaborarà un _wireframe_ de baixa fidelitat i/o un _mockup_ d'alta fidelitat del disseny final.
 
-Una vegada aprovat el disseny final passarem a la següent fase.
+Una vegada aprovat el disseny final passarem a la fase de desenvolupament.
 
 ## Desenvolupament
 
 ### Backend
 
-Instal·larem el l'eina [Hasura](https://hasura.io/) a un servidor VPS contractat pel client. Això ens facilitarà tindre en funcionament una base de dades postgreSQL i un servidor graphQL de manera ràpida.
+Instal·larem l'eina [Hasura](https://hasura.io/) a un servidor VPS contractat pel client. Això ens facilitarà tindre en funcionament una base de dades postgreSQL i un servidor graphQL de manera ràpida.
 
-Dissenyarem les taules i les relacions necessàries, partint dels continguts de la base de dades que usen actualment, MS Access.
+Dissenyarem les taules i les relacions necessàries, segons el full de requeriments.
 
 Configurarem el sistema d'autenticació amb [Firebase](https://firebase.google.com/) i el d'autorització amb _Hasura_.
 
@@ -117,6 +129,7 @@ Actualitzarem les DNS del domini del client per a que apunte a la versió de pro
 - El plantejament de les necessitats de les AMPA que puguen ser assolides mitjançant una aplicació web i que plasmarem en forma de requeriments.
 - Substituir les eines privatives que poguéssin estar usant en l'actualitat per una aplicació web de codi obert que puga ser usada i adaptada per totes les AMPA de manera lliure.
 - Evitar l'ús de formularis en paper i minimitzar el contacte personal.
+- Afavorir la immediatesa en les gestions i comunicacions amb l'AMPA.
 
 # Continguts
 
@@ -124,9 +137,7 @@ Pendent
 
 # Metodologia
 
-S'emprarà una metodologia de tipus _waterfall_ amb retroalimentació. Per tant es presentarà el document de requeriments al client per a que el valide, i una vegada fet procedirem a executar cadascuna de les tasques necessàries de manera seqüencial.
-
-Les etapes per les que passarem seran les que detallarem al següent apartat de planificació del treball.
+S'emprarà una metodologia de tipus _waterfall_ amb retroalimentació. Per tant es presentarà el document de requeriments al client per a que el valide, i una vegada fet procedirem a executar cadascuna de les tasques necessàries de manera seqüencial, tornant enrere a alguna d'elles si fos necessari per reajustar algun requeriment.
 
 # Arquitectura de l'aplicació
 
@@ -140,14 +151,31 @@ L'aplicació constarà de les següents parts:
 - Un servidor NodeJS
 - Un _frontend_ VueJS mitjançant el framework _Quasar_.
 - Un servei d'autenticació mitjançant _Firebase_.
+  
+El desenvolupament tindrà lloc principalment en dues màquines amb Sistema Operatiu Linux, i el IDE _Visual Studio Code_.
+
+El present treball està redactat en llenguatge _Markdown_ i convertit a PDF amb [Pandoc](https://pandoc.org/).
 
 # Planificació del treball
 
-PEC | Activitat | Inici | Fi
+PAC | Activitat | Inici | Fi
 --- | --- | ---| ---
-1   | **Plantejament del projecte** | 17/02/2021 | 02/03/2021
+1 | **Plantejament del projecte** | 17/02/2021 | 02/03/2021
 " | Document de requeriments | " | "
 " | Context i Justificació | " | "
+2 | **Desenvolupament i documentació I** | 03/03/2021 | 31/03/2021
+" | Desenvolupament i docs Backend | " | "
+" | Desenvolupament i docs Frontend | " | "
+2 | **Desenvolupament i documentació II** | 01/04/2021 | 09/05/2021
+" | Desenvolupament i docs Backend | " | "
+" | Desenvolupament i docs Frontend | " | "
+" | MVP i primeres proves (vídeo) | " | "
+3 | **Desenvolupament i documentació III** | 10/05/2021 | 07/06/2021
+" | Finalitzar Desenvolupament i docs | " | "
+" | Finalitzar Memòria TFM | " | "
+" | Elaborar presentació | " | "
+" | Presentació en vídeo | " | "
+" | Elaborar autoinforme d'avaluació | " | "
 
 (...)
 
