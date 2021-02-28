@@ -21,6 +21,10 @@ abstract: >
 
     _This **Final Master's Thesis** proposes the development of a PWA that will facilitate the management of Parents Associations in addition to encouraging the participation of parents themselves, promote the request for services online, as well as facilitate communication within the association through push notifications._
 
+    \newline{}
+
+    \newline{}
+
     _keywords: PWA, AMPA, GraphQL, VueJS, NodeJS_
 author: 'Josep V. Monjo'
 date: '24/02/2021'
