@@ -192,4 +192,8 @@ PAC | Activitat | Inici | Fi
 
 Pendent
 
+# CI/CD
+
+Pendent
+
 # Bibliografia
