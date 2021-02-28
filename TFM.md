@@ -60,22 +60,22 @@ No cal recordar que el context actual de pandèmia mundial facilita que cada veg
 
 En un primer moment es va plantejar la possibilitat d'elaborar un model _SaaS_[^sass]. En aquest cas l'aplicació podria contenir la gestió de diferents AMPA i cadascuna d'elles podria tindre el seu propi subdomini. Aquest és el model més freqüent al mercat per a quest tipus de gestió. Per exemple:
 
-- [Mi ampa](https://miampa.com/)
-- [playoff gestión de asociaciones](https://playoffinformatica.com/gestion-de-asociaciones/)
-- [AmpaSoft](https://ampasoft.es/)
-- [AmpaNet](https://www.ampanet.es/)
-- [EduTeca](https://edutecaservicios.es/software-especializado/)
-- [GesAmpa](https://gesampa.com/joomla/)
+- Mi ampa: [https://miampa.com/](https://miampa.com/)
+- playoff gestión de asociaciones: [https://playoffinformatica.com/gestion-de-asociaciones/](https://playoffinformatica.com/gestion-de-asociaciones/)
+- AmpaSoft: [https://ampasoft.es/](https://ampasoft.es/)
+- AmpaNet: [https://www.ampanet.es/](https://www.ampanet.es/)
+- EduTeca: [https://edutecaservicios.es/software-especializado/](https://edutecaservicios.es/software-especializado/)
+- GesAmpa: [https://gesampa.com/joomla/](https://gesampa.com/joomla/)
 
-No obstant aquesta possibilitat es va descartar per que la finalitat inicial no era muntar un negoci _SaaS_ si no desenvolupar internament una eina d'autoconsum, fent-la el més oberta i transparent possible per a que puga ser implementada a altres A MPA o associacions que no vulguen un model de subscripció si no autogestionar-se.
+No obstant això, aquesta possibilitat es va descartar perquè la finalitat inicial no era muntar un negoci _SaaS_ si no desenvolupar internament una eina per a l'autogestió de la AMPA de la que forme part, fent-la el més oberta i transparent possible per a que puga ser implementada a altres AMPA o associacions que no vulguen un model de subscripció si no autogestionar-se.
 
 [^sass]: De les segles en anglès _Software as a Service_.
 
 ## Justificació del Treball
 
-La gestió de les Associacions de Mares i Pares d'Alumnes inclou bases de dades de pares, d'alumnes, de pagament de quotes, de serveis, etc... Aquesta tasca s'ha realitzat tradicionalment de manera offline (MS Excel, MS Access,...). El canvi a una eina online facilitarà no només aquesta gestió si no que propiciarà la participació dels propis pares i mares en la gestió i actualització de les seues dades així com en la sol·licitud de serveis que ofereix la seua AMPA de manera online, evitant l'ús de formularis en paper i minimitzant el contacte físic, aspecte aquest molt important en aquests temps de pandèmia mundial.
+La gestió de les Associacions de Mares i Pares d'Alumnes inclou bases de dades amb dades de pares, d'alumnes, de pagament de quotes, de serveis, etc... Aquesta tasca s'ha realitzat tradicionalment de manera offline (MS Excel, MS Access,...) i amb poca o cap automatització. El canvi a una eina online facilitarà no només aquesta gestió si no que propiciarà la participació dels propis pares i mares en la gestió i actualització de les seues dades, així com en la sol·licitud de serveis que ofereix la seua AMPA de manera online, evitant l'ús de formularis en paper i minimitzant el contacte físic, aspecte aquest molt important en aquests temps de pandèmia mundial.
 
-A més a més facilitarà la comunicació dels membres de la Junta de govern del AMPA amb els seus afiliats, ajudant a gestionar els continguts del blog, notícies, axí com l'enviament de notificacions push.
+A més a més facilitarà la comunicació dels membres de la Junta de govern del AMPA amb els seus afiliats, ajudant a gestionar els continguts coma ara notícies, activitats, juntes, etc... axí com l'enviament de notificacions push.
 
 # Descripció
 
@@ -176,21 +176,26 @@ PAC | Activitat | Inici | Fi
 1 | **Plantejament del projecte** | 17/02/2021 | 02/03/2021
 " | Document de requeriments | " | "
 " | Context i Justificació | " | "
+" | Descripció del projecte | " | "
+" | Objectius | " | "
+" | Metodologia| " | "
 2 | **Desenvolupament i documentació I** | 03/03/2021 | 31/03/2021
 " | Desenvolupament i docs Backend | " | "
 " | Desenvolupament i docs Frontend | " | "
+" | Continguts | " | "
+" | Arquitectura de la app | " | "
 2 | **Desenvolupament i documentació II** | 01/04/2021 | 09/05/2021
 " | Desenvolupament i docs Backend | " | "
 " | Desenvolupament i docs Frontend | " | "
 " | MVP i primeres proves (vídeo) | " | "
+" | Procés de treball | " | "
+" | CI/CD | " | "
 3 | **Desenvolupament i documentació III** | 10/05/2021 | 07/06/2021
 " | Finalitzar Desenvolupament i docs | " | "
 " | Finalitzar Memòria TFM | " | "
 " | Elaborar presentació | " | "
 " | Presentació en vídeo | " | "
 " | Elaborar autoinforme d'avaluació | " | "
-
-(...)
 
 # Procés de treball/desenvolupament
 
