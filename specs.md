@@ -2,7 +2,7 @@
 title: "Annexe 1"
 subtitle: Document d'especificacions de la PWA de gestió de les AMPA
 author: 'Josep V. Monjo'
-date: '24/02/2021'
+date: '02/03/2021'
 lang: ca
 #numbersections: true
 fontfamily: lmodern
