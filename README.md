@@ -38,6 +38,6 @@ Per a footnotes:
 
 També cal tenir en compte que el _output_ de pandoc necessita les següents opcions:
 
-`-f markdown-implicit_figures --highlight-style=zenburn --filter pandoc-citeproc`
+`-f markdown+implicit_figures   --highlight-style=zenburn --citeproc  --filter pandoc-crossref`
 
 El treball s'ha seqüenciat en diferents entregues (PAC) que figuren com a [releases](https://github.com/fampa/tfm/releases).
