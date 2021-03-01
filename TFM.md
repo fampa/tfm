@@ -1,19 +1,27 @@
 ---
-title: "Desenvolupament d'una _Progressive Web App_ (PWA) de gestió d'una AMPA"
+title: >
+    \begin{center}
+        \includegraphics[width=5cm]{img/uoc_logo.jpg}
+    \end{center}
+
+    Desenvolupament d'una _Progressive Web App_ (PWA) de gestió d'una AMPA
+subtitle: Memòria de Projecte Final de Màster \newline{}Màster Universitari en Desenvolupament d'Aplicacions i Llocs Web.
+# output:
+#   pdf_document:
+#     template: memoria.tex
 abstract: > 
-    El present **Treball Final de Màster** planteja el desenvolupament d'una PWA que facilitarà la gestió de les AMPA a més a més de fomentar la participació dels propis pares, propiciar la sol·licitud de serveis de manera online, així com facilitar la comunicació al sí de l'associació mitjançant notificacions push.
-    
-    \newline{}
-
-    \newline{}
-
-    Paraules clau: PWA, AMPA, GraphQL, VueJS, NodeJS
+    **Resum**
 
     \newline{}
 
     \newline{}
+    La present **Memòria de Final de Màster** planteja el desenvolupament d'una PWA que facilitarà la gestió de les AMPA a més a més de fomentar la participació dels propis pares, propiciar la sol·licitud de serveis de manera online, així com facilitar la comunicació al sí de l'associació mitjançant notificacions push.
 
-    **Abstract**
+    \newline{}
+
+    \newline{}
+
+    **_Abstract_**
 
     \newline{}
 
@@ -25,8 +33,11 @@ abstract: >
 
     \newline{}
 
-    _keywords: PWA, AMPA, GraphQL, VueJS, NodeJS_
-author: 'Josep V. Monjo'
+    **keywords:** PWA, AMPA, GraphQL, VueJS, NodeJS
+author:
+    - "Autor: _Josep V. Monjo_"
+    - "Professor: _César Pablo Córcoles Briongos_"
+keywords: [PWA, AMPA, GraphQL, VueJS, NodeJS]
 date: '24/02/2021'
 lang: ca
 include-before:
@@ -34,11 +45,13 @@ include-before:
 toc: true
 lot: true
 lof: true
+documentclass: scrreprt
 numbersections: true
 bibliography: ["bibliography.bib"]
 fontfamily: lmodern
 linkcolor: blue
 urlcolor: blue
+#thanks: Gràcies a Consol per la seua comprensió i paciència, sense la qual no hauria pogut dedicar el temps necessari a aquest treball. I gràcies a Arnau i Pau.
 header-includes: |
     \usepackage{fancyhdr}
     \pagestyle{fancy}
@@ -48,6 +61,7 @@ header-includes: |
     \cfoot{\thepage}
     \usepackage{setspace}
     \doublespacing
+    \usepackage{graphicx}
 ---
 
 \newpage{}
