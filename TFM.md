@@ -126,7 +126,7 @@ Dissenyarem les taules i les relacions necessàries, segons el full de requerime
 
 Configurarem el sistema d'autenticació amb [Firebase](https://firebase.google.com/) i el d'autorització amb _Hasura_.
 
-Addicionalment posarem en marxa un petit servidor _NodeJS_ per gestionar transaccions amb dades sensibles com per exemple certes claus API, i els mecanismes per autoritzar a un administrador, i d'altres com ara l'enviament de missatges per correu electrònic i de notificacions push.
+Addicionalment posarem en marxa un petit servidor _NodeJS_ per gestionar transaccions amb dades sensibles com per exemple certes claus API que necessiten residir al costat del servidor, i els mecanismes per autoritzar a un administrador, així com d'altres com ara l'enviament de missatges per correu electrònic o de notificacions push.
 
 ### Frontend
 
@@ -173,7 +173,7 @@ WIP
 
 # Plataforma de desenvolupament
 
-L'aplicació constarà de les següents parts:
+Necessitarem el següent programari:
 
 - Una base de dades postgreSQL gestionada per una API GraphQL, mitjançant el _framework Hasura_.
 - Un servidor NodeJS
