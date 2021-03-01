@@ -38,7 +38,7 @@ author:
     - "Autor: _Josep V. Monjo_"
     - "Professor: _César Pablo Córcoles Briongos_"
 keywords: [PWA, AMPA, GraphQL, VueJS, NodeJS]
-date: '24/02/2021'
+date: '02/03/2021'
 lang: ca
 include-before:
 - '`\newpage{}`{=latex}'
