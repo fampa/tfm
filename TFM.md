@@ -67,7 +67,7 @@ header-includes: |
 
 ## Context
 
-No cal recordar que el context actual de pandèmia mundial propícia que cada vegada més les persones romanguen a sa casa i realitzen totes les seues gestions de manera telemàtica, posant de relleu la importància de les eines digitals i de telegestió com ara videoconferències, administració electrònica, teletreball, etc...
+No cal recordar que el context actual de pandèmia mundial propícia que cada vegada més les persones romanguen a sa casa i realitzen totes les seues gestions de manera telemàtica, posant de relleu la importància de les eines digitals i de telegestió com ara videoconferències, aprenentatge online, administració electrònica, teletreball, etc...
 
 És en aquest context que sorgeix la necessitat de modernitzar la gestió de l'Associació de Mares i Pares d'Alumnes (AMPA).
 
