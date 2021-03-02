@@ -127,7 +127,7 @@ Una vegada aprovat el disseny final passarem a la fase de desenvolupament.
 
 ### Backend
 
-Instal·larem l'eina [Hasura](https://hasura.io/) a un servidor VPS contractat pel client. Això ens facilitarà tindre en funcionament una base de dades postgreSQL i un servidor graphQL de manera ràpida.
+Instal·larem l'eina [Hasura](https://hasura.io/) (a un servidor VPS contractat pel client, o a un servei al núvol). Això ens facilitarà tindre en funcionament una base de dades postgreSQL i un servidor graphQL de manera ràpida.
 
 Dissenyarem les taules i les relacions necessàries, segons el full de requeriments.
 
