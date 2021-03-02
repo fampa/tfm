@@ -111,7 +111,7 @@ El model d'aplicació web progressiva està basat en estàndards web i no en cap
 
 Pel que fa a **GraphQL** és un llenguatge query per a APIs que proporciona de manera automàtica una documentació de les dades que poden ser extretes de la API, autocompletat de les _queries_ i a més a més permet obtenir només aquells camps que ens interessen des d'un únic _endpoint_.
 
-El projecte constarà de les següents fases.
+El projecte constarà de les fases que detallarem a continuació.
 
 ## Investigació/Requeriments
 
