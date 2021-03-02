@@ -1,26 +1,6 @@
----
-title: "Annexe 1"
-subtitle: Document d'especificacions de la PWA de gestió de les AMPA
-author: 'Josep V. Monjo'
-date: '02/03/2021'
-lang: ca
-#numbersections: true
-fontfamily: lmodern
-documentclass: scrreprt
-linkcolor: blue
-urlcolor: blue
-header-includes: |
-    \usepackage{fancyhdr}
-    \pagestyle{fancy}
-    \fancyhf{}
-    \rhead{Annexe 1}
-    \lhead{Josep V. Monjo}
-    \cfoot{\thepage}
-    \usepackage{setspace}
-    \doublespacing
----
+# Annexe 1
 
-# Especificacions
+## Especificacions
 
 - Disseny _responsive_
 - Dos tipus d'usuari (administrador, afiliat)
