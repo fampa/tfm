@@ -38,7 +38,7 @@ author:
     - "Autor: _Josep V. Monjo Agut_"
     - "Professor: _César Pablo Córcoles Briongos_"
 keywords: [PWA, AMPA, GraphQL, VueJS, NodeJS, Hasura, Quasar]
-date: '02/03/2021'
+date: 'PAC 1 - 02/03/2021'
 lang: ca
 # include-before:
 # - '`\newpage{}`{=latex}'
@@ -49,7 +49,7 @@ figureTitle: "Figura"
 tableTitle: "Taula"
 figPrefix: "fig."
 #eqnPrefix: "eq."
-tblPrefix: "tla."
+tblPrefix: "taula"
 lofTitle: "Llista de figures"
 lotTitle: "Llista de taules"
 documentclass: scrreprt
@@ -69,6 +69,13 @@ header-includes: |
     \usepackage{setspace}
     \doublespacing
 ---
+
+\newpage
+\vspace*{\fill}
+
+[![CC-by-nc-sa](img/by-nc-sa.eu.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+Reconeixement-NoComercial-CompartirIgual 4.0 Internacional de Creative Commons
 
 # Introducció
 
@@ -174,15 +181,16 @@ S'emprarà una metodologia de tipus _waterfall_ amb retroalimentació. Per tant 
 
 # Arquitectura de l'aplicació
 
-WIP
-
-L'aplicació segueix un model MVVM[^mvvm]. Es tracta d'un model de desenvolupament que separa el _business logic_ de la capa de presentació, el que propícia la separació i la modularització del nostre codi, afavorint l'elaboració de tests unitaris i col·laborant a tindre un codi més net i més fàcil de mantenir  [@britz_enterprise_2017].
+L'aplicació segueix un model MVVM[^mvvm]. Es tracta d'un model de desenvolupament que separa el _business logic_ de la capa de presentació, el que propícia la separació i la modularització del nostre codi, afavorint l'elaboració de tests unitaris i col·laborant a tindre un codi més net i més fàcil de mantenir [@britz_enterprise_2017]. A diferència del model MVC[^mvc], el MVVM utilitza llenguatge de marcat per a la capa d'unió entre la capa lògica i la capa de presentació. Aquest és el cas del _framework VueJS_ tal i com podem veure a la @fig:mvvm. A més a més e el model MVC el controlador és el punt d'entrada de l'aplicació mentre que en el MVVM la vista és el punt d'entrada [@rungta_mvc_nodate].
 
 [^mvvm]: _Model View View-Model_
+[^mvc]: _Model View Controller_
 
-![Model MVVM. Font: https://vuejs.org](img/mvvm-vue.png)
+![Model MVVM. Font: https://vuejs.org](img/mvvm-vue.png){#fig:mvvm}
 
-El diagrama de flux de la nostra aplicació seria el següent:
+El diagrama de flux de la nostra aplicació el podem observar a la @fig:diagramaFlux.
+
+WIP
 
 ![Diagrama de flux](img/diagrama-flux.svg){#fig:diagramaFlux}
 
@@ -195,11 +203,13 @@ Necessitarem els següents recursos:
 - Un _frontend_ VueJS mitjançant el framework _Quasar_.
 - Un servei d'autenticació mitjançant _Firebase_.
   
-El desenvolupament tindrà lloc principalment en dues màquines amb Sistema Operatiu Linux, i el IDE _Visual Studio Code_.
+Per al desenvolupament s'han usat principalment dues màquines amb Sistema Operatiu Linux, i el IDE _Visual Studio Code_.
 
-El present treball està redactat en llenguatge _Markdown_ i convertit a PDF amb [Pandoc](https://pandoc.org/).
+La present memòria està redactada en llenguatge _Markdown_ i convertida a PDF amb [Pandoc](https://pandoc.org/).
 
 # Planificació del treball
+
+La memòria del Treball Final de Màster consta d'una sèrie d'entregues parcials programades amb les dates que figuren a la @tbl:planning.
 
 PAC | Activitat | Inici | Fi
 --- | --- | ---| ---
@@ -214,19 +224,19 @@ PAC | Activitat | Inici | Fi
 " | Desenvolupament i docs Frontend | " | "
 " | Continguts | " | "
 " | Arquitectura de la app | " | "
-2 | **Desenvolupament i documentació II** | 01/04/2021 | 09/05/2021
+3 | **Desenvolupament i documentació II** | 01/04/2021 | 09/05/2021
 " | Desenvolupament i docs Backend | " | "
 " | Desenvolupament i docs Frontend | " | "
 " | MVP i primeres proves (vídeo) | " | "
 " | Procés de treball | " | "
 " | CI/CD | " | "
-3 | **Desenvolupament i documentació III** | 10/05/2021 | 07/06/2021
+Final | **Desenvolupament i documentació III** | 10/05/2021 | 07/06/2021
 " | Finalitzar Desenvolupament i docs | " | "
 " | Finalitzar Memòria TFM | " | "
 " | Elaborar presentació | " | "
 " | Presentació en vídeo | " | "
 " | Elaborar autoinforme d'avaluació | " | "
-Table: Planificació del treball
+Table: Planificació del treball {#tbl:planning}
 
 # Procés de treball/desenvolupament
 
