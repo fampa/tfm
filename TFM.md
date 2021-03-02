@@ -45,6 +45,13 @@ lang: ca
 toc: true
 lot: true
 lof: true
+figureTitle: "Figura"
+tableTitle: "Taula"
+figPrefix: "fig."
+#eqnPrefix: "eq."
+tblPrefix: "tla."
+lofTitle: "Llista de figures"
+lotTitle: "Llista de taules"
 documentclass: scrreprt
 numbersections: true
 bibliography: ["bibliography.bib"]
@@ -173,10 +180,10 @@ WIP
 
 # Plataforma de desenvolupament
 
-Necessitarem el següent programari:
+Necessitarem els següents recursos:
 
 - Una base de dades postgreSQL gestionada per una API GraphQL, mitjançant el _framework Hasura_.
-- Un servidor NodeJS
+- Un servidor NodeJS,
 - Un _frontend_ VueJS mitjançant el framework _Quasar_.
 - Un servei d'autenticació mitjançant _Firebase_.
   
