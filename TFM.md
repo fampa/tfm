@@ -78,7 +78,7 @@ No cal recordar que el context actual de pandèmia mundial propícia que cada ve
 
 És en aquest context que sorgeix la necessitat de modernitzar la gestió de l'Associació de Mares i Pares d'Alumnes (AMPA).
 
-Fent un estudi de mercat, en un primer moment es va plantejar la possibilitat d'elaborar un model _SaaS_[^sass]. En aquest cas l'aplicació podria contenir la gestió de diferents AMPA i cadascuna d'elles podria tindre el seu propi subdomini. Aquest és el model més freqüent al mercat per a quest tipus de gestió. Per exemple:
+Fent un estudi de mercat, en un primer moment es va plantejar la possibilitat d'elaborar un model _SaaS_[^sass]. En aquest cas l'aplicació podria contenir la gestió de diferents AMPA i cadascuna d'elles podria tindre el seu propi subdomini. Aquest és el model més freqüent al mercat per a quest tipus d'aplicacions web. Per exemple:
 
 - Mi ampa: [https://miampa.com/](https://miampa.com/)
 - playoff gestión de asociaciones: [https://playoffinformatica.com/gestion-de-asociaciones/](https://playoffinformatica.com/gestion-de-asociaciones/)
@@ -87,7 +87,7 @@ Fent un estudi de mercat, en un primer moment es va plantejar la possibilitat d'
 - EduTeca: [https://edutecaservicios.es/software-especializado/](https://edutecaservicios.es/software-especializado/)
 - GesAmpa: [https://gesampa.com/joomla/](https://gesampa.com/joomla/)
 
-No obstant això, aquesta possibilitat es va descartar perquè la finalitat inicial no era muntar un negoci _SaaS_ si no desenvolupar internament una eina per a l'autogestió de la AMPA de la que forme part, fent-la el més oberta i transparent possible per a que puga ser implementada a altres AMPA o associacions que no vulguen un model de subscripció si no autogestionar-se.
+No obstant això, aquesta possibilitat es va descartar perquè la finalitat inicial no era muntar un negoci _SaaS_ si no desenvolupar internament una eina per a l'autogestió de la AMPA de la que forme part com a membre de la Junta, fent-la el més oberta i transparent possible per a que puga ser implementada a altres AMPA o associacions que no vulguen un model de subscripció si no un d'autogestionat.
 
 [^sass]: De les segles en anglès _Software as a Service_.
 
