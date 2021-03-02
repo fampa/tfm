@@ -176,7 +176,7 @@ S'emprarà una metodologia de tipus _waterfall_ amb retroalimentació. Per tant 
 
 WIP
 
-L'aplicació segueix un model MVVM[^mvvm].
+L'aplicació segueix un model MVVM[^mvvm]. Es tracta d'un model de desenvolupament que separa el _business logic_ de la capa de presentació, el que propícia la separació i la modularització del nostre codi, afavorint l'elaboració de tests unitaris i col·laborant a tindre un codi més net i més fàcil de mantenir  [@britz_enterprise_2017].
 
 [^mvvm]: _Model View View-Model_
 
