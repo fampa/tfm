@@ -176,6 +176,14 @@ S'emprarà una metodologia de tipus _waterfall_ amb retroalimentació. Per tant 
 
 WIP
 
+L'aplicació segueix un model MVVM[^mvvm].
+
+[^mvvm]: _Model View View-Model_
+
+![Model MVVM. Font: https://vuejs.org](img/mvvm-vue.png)
+
+El diagrama de flux de la nostra aplicació seria el següent:
+
 ![Diagrama de flux](img/diagrama-flux.svg){#fig:diagramaFlux}
 
 # Plataforma de desenvolupament
