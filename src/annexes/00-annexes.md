@@ -14,7 +14,7 @@ header-includes: |
     \usepackage{fancyhdr}
     \pagestyle{fancy}
     \fancyhf{}
-    \rhead{Annexe 1}
+    \rhead{Annexes}
     \lhead{Josep V. Monjo}
     \cfoot{\thepage}
     \usepackage{setspace}
