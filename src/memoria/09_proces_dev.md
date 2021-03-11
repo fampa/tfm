@@ -2,7 +2,7 @@
 
 ## Disseny dels mockup
 
-Hem dissenyat l'aplicació amb l'eina online [figma](https://www.figma.com/), enfocant-nos en el disseny per a mòbils ja que hem seguit un enfocament _mobile first_.
+Hem dissenyat l'aplicació amb l'eina online [Figma](https://www.figma.com/) usant un acostament _mobile first_, ja que s'espera que la majoria de trànsit vinga des de dispositius mòbils.
 
 WIP
 
