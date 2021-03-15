@@ -55,3 +55,9 @@ Per a que totes les targetes de notícies tinguen la mateixa independentment de 
 Afegim support per a _GraphQl_ amb _Apollo client_.
 
 `yarn add @vue/apollo-composable`
+
+Afegim suport per a PWA.
+
+`quasar mode add pwa`
+
+Això crearà una carpeta `src-pwa` amb el codi fint del _service worker_.
