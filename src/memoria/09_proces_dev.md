@@ -38,6 +38,20 @@ Creem els components que necessitarem:
 
 - src/components/NewsCard.vue
 
+Per a que totes les targetes de notícies tinguen la mateixa independentment de la mida del titular he optat per una solució via css per fer elipsis del titular quan sobrepassa 2 línies:
+
+```css
+.titular {
+  display: inline-block;
+  height: 65px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+}
+```
+
 Afegim support per a _GraphQl_ amb _Apollo client_.
 
 `yarn add @vue/apollo-composable`
