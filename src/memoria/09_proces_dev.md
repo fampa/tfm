@@ -56,8 +56,32 @@ Afegim support per a _GraphQl_ amb _Apollo client_.
 
 `yarn add @vue/apollo-composable`
 
+Per a poder usar queries en fitxers independents en format `.gql` necessitem afegir aquest codi a `src/shims-vue.d.ts`:
+
+```js
+declare module '*.gql' {
+  import { DocumentNode } from 'graphql'
+
+  const content: DocumentNode
+  export default content
+}
+```
+
+I a `quasar.conf.js`:
+
+```js
+chainWebpack (chain /** { isServer, isClient } **/) {
+  // ...
+  chain.module.rule('gql')
+          .test(/\.(graphql|gql)$/)
+          .use('graphql-tag/loader')
+          .loader('graphql-tag/loader')
+  // ...
+}
+```
+
 Afegim suport per a PWA.
 
 `quasar mode add pwa`
 
-Això crearà una carpeta `src-pwa` amb el codi fint del _service worker_.
+Això crearà una carpeta `src-pwa` amb el codi font del _service worker_, i les icones necessàries a la carpeta `public`.
