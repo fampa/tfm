@@ -34,6 +34,11 @@ build: {
 }
 ```
 
+Seguint les recomanacions a la web oficial de Quasar, he instal·lat la versió 2, malgrat que encara es troba en beta. Això ha requerit certs _workarounds_ com ara els proposats a aquest _issue_ de github per fer funcionar la _store_ de Vuex:
+[https://github.com/quasarframework/quasar/issues/8500]
+
+## Components
+
 Creem els components que necessitarem:
 
 - src/components/NewsCard.vue
@@ -51,6 +56,8 @@ Per a que totes les targetes de notícies tinguen la mateixa independentment de 
   text-overflow: ellipsis;
 }
 ```
+
+## GraphQl
 
 Afegim support per a _GraphQl_ amb _Apollo client_.
 
@@ -79,6 +86,8 @@ chainWebpack (chain /** { isServer, isClient } **/) {
   // ...
 }
 ```
+
+## PWA
 
 Afegim suport per a PWA.
 
