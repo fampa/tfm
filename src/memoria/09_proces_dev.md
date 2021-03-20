@@ -87,6 +87,23 @@ chainWebpack (chain /** { isServer, isClient } **/) {
 }
 ```
 
+## Vuex
+
+Per a manejar l'estat de la nostra aplicació usem Vuex, instal·lat durant la configuració inicial de Quasar. Per a que l'estat persisteixi usarem `vuex-persistedstate`:
+
+`yarn add vuex-persistedstate`
+
+I afegirem ho configurem a Vuex al fitxer `src/store/index.ts`:
+
+```js
+import createPersistedState from 'vuex-persistedstate'
+
+const store = createStore({
+  // ...
+  plugins: [createPersistedState()]
+});
+```
+
 ## PWA
 
 Afegim suport per a PWA.
