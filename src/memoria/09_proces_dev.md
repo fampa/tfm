@@ -104,6 +104,14 @@ const store = createStore({
 });
 ```
 
+## Autenticació i autorització
+
+Usarem Firebase per tasques d'autorització i autenticació.
+
+El primer pas és crear un projecte a (<https://console.firebase.google.com/u/0/?pli=1>).
+
+També seleccionarem Firebase Hosting per a allotjar la nostra app posteriorment.
+
 ## PWA
 
 Afegim suport per a PWA.
