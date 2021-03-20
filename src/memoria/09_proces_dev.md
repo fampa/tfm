@@ -112,6 +112,10 @@ El primer pas és crear un projecte a (<https://console.firebase.google.com/u/0/
 
 També seleccionarem Firebase Hosting per a allotjar la nostra app posteriorment.
 
+Afegim Firebase a la nostra app:
+
+`yarn add firebase`
+
 ## PWA
 
 Afegim suport per a PWA.
