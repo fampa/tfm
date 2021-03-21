@@ -110,11 +110,21 @@ Usarem Firebase per tasques d'autorització i autenticació.
 
 El primer pas és crear un projecte a (<https://console.firebase.google.com/u/0/?pli=1>).
 
-També seleccionarem Firebase Hosting per a allotjar la nostra app posteriorment.
+També usarem Firebase Hosting per a allotjar la nostra app posteriorment, així com Cloud Functions per a usar com a servidor nodejs, Firebase Storage per allotjar imatges pujades pels usuaris, i Firebase RealTime Database per gestionar tokens.
 
 Afegim Firebase a la nostra app:
 
 `yarn add firebase`
+
+També necessitarem el cli de Firebase al nostre sistema:
+
+`npm install -g firebase-tools`
+
+Configurarem les credencials de Firebase amb variables ambientals, de manera que els desenvolupadors només hauran d'omplir les dades del fitxer `.env`.
+
+Per al _flow_ d'autenticació usarem la llibreria FirebaseUi:
+
+`yarn add firebaseui`
 
 ## PWA
 
