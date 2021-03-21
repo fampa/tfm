@@ -133,3 +133,39 @@ Afegim suport per a PWA.
 `quasar mode add pwa`
 
 Això crearà una carpeta `src-pwa` amb el codi font del _service worker_, i les icones necessàries a la carpeta `public`.
+
+Per a actualitzar el _service worker_ cada vegada que es publique una nova versió de la app necessitem modificar `src-pwa/register-service-worker.js`:
+
+```js
+import { Notify } from 'quasar'
+// ...
+updated (registration) {
+  console.log('New content is available; please refresh.')
+  return Notify.create({
+    timeout: 0,
+    message: 'Nova versió disponible. Actualitza polsant el botó',
+    actions: [
+      {
+        icon: 'fal fa-sync-alt',
+        label: 'ACTUALITZA',
+        handler: () => {
+          return registration.waiting.postMessage('skipWaiting')
+        }
+      }]
+  })
+},
+// ...
+```
+
+Això ens mostrarà una notificació que ens donarà l'opció d'actualitzar enviant el missatge 'skipWaiting' al _service worker_.
+
+També necessitarem escoltar a aquest missatge, per això editarem el fitxer `src-pwa/custom-service-worker.js`:
+
+```js
+self.addEventListener('message', e => {
+  if (e.data === 'skipWaiting') {
+    console.log('skipWaiting called')
+    self.skipWaiting()
+  }
+})
+```
