@@ -169,3 +169,7 @@ self.addEventListener('message', e => {
   }
 })
 ```
+
+Per a generar les icones necessàries de manera automàtica usarem esta eina:
+
+`yarn global add @quasar/icongenie`
