@@ -87,6 +87,62 @@ chainWebpack (chain /** { isServer, isClient } **/) {
 }
 ```
 
+Els articles del blog els carregarem paginant-los amb la tècnica del _infinite scroll_. Per a això al _frontend_ usarem:
+
+```html
+<div v-else-if="articles">
+  <q-infinite-scroll :offset="0" @load="onLoad">
+    <div class="row items-start">
+      <div
+        class="col-12 col-sm-6 col-md-4 q-pa-sm"
+        v-for="article in articles"
+        :key="article.id"
+      >
+        <news-card :article="article"></news-card>
+      </div>
+    </div>
+    <template v-if="loading" v-slot:loading>
+      <div class="row justify-center q-my-md">
+        <q-spinner-dots color="primary" size="40px" />
+      </div>
+    </template>
+  </q-infinite-scroll>
+</div>
+```
+
+I a Apollo:
+
+```js
+import { offsetLimitPagination } from '@apollo/client/utilities'
+
+const cache = new InMemoryCache({
+  typePolicies: {
+    Query: {
+      fields: {
+        articles: offsetLimitPagination()
+      }
+    }
+  }
+})
+```
+
+```gql
+query getArticles($offset: Int, $limit: Int) {
+    articles(offset: $offset, limit: $limit, order_by: {created_at: desc}) {
+    id
+    status
+    image
+    created_at
+    updated_at
+        translations {
+            title
+            slug
+            language
+        }
+    }
+}
+```
+
 ## Vuex
 
 Per a manejar l'estat de la nostra aplicació usem Vuex, instal·lat durant la configuració inicial de Quasar. Per a que l'estat persisteixi usarem `vuex-persistedstate`:
