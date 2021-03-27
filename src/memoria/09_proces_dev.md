@@ -126,7 +126,7 @@ const cache = new InMemoryCache({
 })
 ```
 
-```gql
+```txt
 query getArticles($offset: Int, $limit: Int) {
     articles(offset: $offset, limit: $limit, order_by: {created_at: desc}) {
     id
