@@ -128,7 +128,11 @@ const cache = new InMemoryCache({
 
 ```txt
 query getArticles($offset: Int, $limit: Int) {
-    articles(offset: $offset, limit: $limit, order_by: {created_at: desc}) {
+    articles(
+      offset: $offset,
+      limit: $limit,
+      order_by: {created_at: desc}
+    ) {
     id
     status
     image
@@ -229,6 +233,10 @@ self.addEventListener('message', e => {
 Per a generar les icones necessàries de manera automàtica usarem esta eina:
 
 `yarn global add @quasar/icongenie`
+
+Per generar les icones:
+
+`icongenie generate -i src/assets/icon.png`
 
 ## Optimitzacions
 

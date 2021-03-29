@@ -44,9 +44,9 @@ Elaborarem les rutes necessàries per a la nostra app així com el sistema d'aut
 
 Adaptarem la nostra app per que complisca els requisits d'una PWA i ens assegurarem que hem acomplit tots els requeriments.
 
-## Proves
+## Proves i millores de rendiment
 
-Escriurem els tests unitaris que necessitem i farem les proves d'integració i funcionals que calguen.
+Escriurem els tests unitaris que necessitem i farem les proves d'integració i funcionals que calguen, així com les millores suggerides per l'eina de rendiment Lighthouse.
 
 ## Llançament
 
