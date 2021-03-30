@@ -26,7 +26,37 @@ En la portada tindrem el blog
 
 ## Desenvolupament del _backend_
 
-WIP
+Per al control de versions usarem git. El codi font està allotjat a: <https://github.com/fampa/ampa-graphql>
+
+Per gestionar el nostre backend usarem el _framework_ Hasura[^hasura]. En el nostre cas l'instal·larem a un servidor VPS mitjançant Docker seguint les instruccions de la seua web.
+
+[^hasura]: <https://hasura.io/>
+
+Una vegada fet això tindrem un _endpoint_ de GraphQl preparat per a funcionar.
+
+Per poder fer un seguiment de les migracions i modificacions que li farem a la base de dades usarem [Hasura CLI](https://hasura.io/docs/latest/graphql/core/hasura-cli/install-hasura-cli.html#install-hasura-cli).
+
+Iniciem el nostre projecte amb l'_endpoint_ que ens ha donat la instal·lació:
+
+`hasura init ampa-graphql --endpoint https://db.monjo.xyz`
+
+Una vegada fet podem crear la nostra primera migració
+
+`hasura migrate create "init" --from-server --database-name default`
+
+`hasura migrate apply --version "<version>" --skip-execution --database-name default`
+
+I exportem les metadades:
+
+`hasura metadata export`
+
+Amb `hasura console` iniciarem una _GUI_ on crearem les taules necessàries i gestionarem els permisos de cada taula/columna, així com les relacions entre elles. Automàticament se'ns crearà una migració amb cada canvi que fem.
+
+Quan completem una fita a la nostra app, podem fer _squash_ per unir les migracions:
+
+`hasura migrate squash --name "<feature-name>" --from <start-migration-version> --database-name <database-name>`
+
+`hasura migrate apply --version "<squash-migration-version>" --skip-execution --database-name <database-name>`
 
 ## Desenvolupament del _frontend_
 
