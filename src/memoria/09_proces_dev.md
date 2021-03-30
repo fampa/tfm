@@ -61,7 +61,7 @@ Creem els components que necessitarem:
 
 - src/components/NewsCard.vue
 
-Per a que totes les targetes de notícies tinguen la mateixa independentment de la mida del titular he optat per una solució via css per fer elipsis del titular quan sobrepassa 2 línies:
+Per a que totes les targetes de notícies tinguen la mateixa alçada independentment de la mida del titular he optat per una solució via css per fer elipsis del titular quan sobrepassa 2 línies:
 
 ```css
 .titular {
@@ -167,7 +167,7 @@ query getArticles($offset: Int, $limit: Int) {
 
 ## Vuex
 
-Per a manejar l'estat de la nostra aplicació usem Vuex, instal·lat durant la configuració inicial de Quasar. Per a que l'estat persisteixi usarem `vuex-persistedstate`:
+Per a controlar l'estat de la nostra aplicació usem Vuex, instal·lat durant la configuració inicial de Quasar. Per a que l'estat persisteixi usarem la llibreria `vuex-persistedstate`:
 
 `yarn add vuex-persistedstate`
 
