@@ -5,7 +5,7 @@ L'aplicació consisteix en les següents pàgines:
 - Login: pàgina que permetrà fer login amb correu electrònic o compte de Google. Si l'usuari no existeix el crearà automàticament amb _Firebase_.
 - Inici: apareixerà un feed amb les darreres notícies.
 - Notícia (detall): detall de la notícia.
-- Dades personals: inclou dades de l'usuari, de la família i del fill/s o filla/es.
+- Dades personals: inclou dades de l'usuari, de la família i del fill/s o filla/es, així com les dades de domiciliació.
 - Extraescolars: pàgina on es llistaran les diferents activitats extraescolars ofertades
 - Extraescolar (detall): pàgina de detall de l'activitat extraescolar o podem subscriure els nostres fills.
 - Matinera: llistat amb l'oferta d'escola matinera.
