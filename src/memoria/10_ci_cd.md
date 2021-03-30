@@ -10,6 +10,6 @@ En cas de ser un repositori d'una organització, aquest comando podria fallar. E
 
 <https://github.com/FirebaseExtended/action-hosting-deploy/issues/40#issuecomment-748017911>
 
-Durant les primeres fase de desenvolupament actiu és millor desactivar aquesta integració ja que el número de minuts al mes que la podem usar de manera gratuïta és limitat.
+Durant les primeres fases de desenvolupament actiu de l'aplicació és millor desactivar aquesta integració ja que el número de minuts al mes que la podem usar de manera gratuïta és limitat.
 
 No s'ha d'oblidar que cal emplenar l'apartat _Environments_ al repositori de Github ja que com és obvi, el fitxer `.env` és ignorat.
