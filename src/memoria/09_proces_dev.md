@@ -1,5 +1,13 @@
 # Procés de treball/desenvolupament
 
+## Investigació
+
+Per avaluar les necessitats de l'AMPA, s'ha parlat amb membres de la junta directiva i conjuntament amb ells s'ha elaborat el document de requeriments que figura a l'annexe _Especificacions_.
+
+També s'han estudiat els formularis en paper existents, així com la base de dades actual.
+
+Per saber com enfocar el disseny em tingut en compte les estadístiques d'ús de dispositius des dels quals la gent es connecta a internet de manera habitual. Segons el CIS -@centro_de_investigaciones_sociologicas_barometro_2017, el 87% de la població es connecta a internet amb el mòbil mentre que només ho fa des d'un ordinador o portàtil entre el 45% i el 54%.
+
 ## Disseny dels mockup
 
 Hem dissenyat l'aplicació amb l'eina online [Figma](https://www.figma.com/) usant un acostament _mobile first_, ja que s'espera que la majoria de trànsit vinga des de dispositius mòbils.
