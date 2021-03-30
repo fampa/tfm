@@ -23,6 +23,7 @@ PAC | Activitat | Inici | Fi
 " | CI/CD | " | "
 Final | **Desenvolupament i documentació III** | 10/05/2021 | 07/06/2021
 " | Finalitzar Desenvolupament i docs | " | "
+" | Optimitzacions (Lighthouse) | " | "
 " | Finalitzar Memòria TFM | " | "
 " | Elaborar presentació | " | "
 " | Presentació en vídeo | " | "
