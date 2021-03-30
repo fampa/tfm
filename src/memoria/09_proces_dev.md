@@ -4,7 +4,25 @@
 
 Hem dissenyat l'aplicació amb l'eina online [Figma](https://www.figma.com/) usant un acostament _mobile first_, ja que s'espera que la majoria de trànsit vinga des de dispositius mòbils.
 
-WIP
+S'ha optat per un disseny basat en el patró Material Design[^material]. Un patró de disseny proposat per Google i que va tenir un grau auge gràcies a l'explosió d'Android com a sistema operatiu més usat en plataformes mòbils.
+
+[^material]: <https://material.io/design>
+
+Per a la pantalla de login, tal i com es pot observar a la @fig:login, he optat per l'estil que proporciona per defecte la llibreria _Firebase UI_, personalitzant el text dels botons per a que concorde amb la localització de la app.
+
+El menú (@fig:login) tindrà dues parts diferenciades, una visible per a tothom i l'altra de gestió només visible per a administradors.
+
+![Login i menu](img/mockups/login-menu.svg){#fig:login}
+
+A la @fig:usuaris podem veure el formulari de dades personals i relatius a la família, així com el llistat que gestionaran només els administradors
+
+![Gestió d'usuaris](img/mockups/usuaris.svg){#fig:usuaris}
+
+Per a la gestió de serveis com ara la matinera o les extraescolars (@fig:serveis) s'ha optat per presentar-ho en forma de taula i una vegada fem click que ens porte als detalls.
+
+![Gestió de serveis](img/mockups/serveis.svg){#fig:serveis}
+
+En la portada tindrem el blog
 
 ## Desenvolupament del _backend_
 
