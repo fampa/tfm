@@ -85,7 +85,7 @@ build: {
 Seguint les recomanacions a la web oficial de Quasar, he instal·lat la versió 2, malgrat que encara es troba en beta. Això ha requerit certs _workarounds_ com ara els proposats a aquest _issue_ de github per fer funcionar la _store_ de Vuex:
 [https://github.com/quasarframework/quasar/issues/8500]
 
-## Components
+### Components
 
 Creem els components que necessitarem:
 
@@ -105,7 +105,7 @@ Per a que totes les targetes de notícies tinguen la mateixa alçada independent
 }
 ```
 
-## GraphQl
+### Client de GraphQl
 
 Afegim support per a _GraphQl_ amb _Apollo client_.
 
@@ -195,7 +195,7 @@ query getArticles($offset: Int, $limit: Int) {
 }
 ```
 
-## Vuex
+### Gestió d'estat (Vuex)
 
 Per a controlar l'estat de la nostra aplicació usem Vuex, instal·lat durant la configuració inicial de Quasar. Per a que l'estat persisteixi usarem la llibreria `vuex-persistedstate`:
 
@@ -212,7 +212,7 @@ const store = createStore({
 });
 ```
 
-## Autenticació i autorització
+### Autenticació i autorització
 
 Usarem Firebase per tasques d'autorització i autenticació.
 
@@ -234,7 +234,7 @@ Per al _flow_ d'autenticació usarem la llibreria FirebaseUi:
 
 `yarn add firebaseui`
 
-## PWA
+### PWA
 
 Afegim suport per a PWA.
 
@@ -286,6 +286,6 @@ Per generar les icones:
 
 `icongenie generate -i src/assets/icon.png`
 
-## Optimitzacions
+### Optimitzacions
 
 Proves de rendiment amb Lighthouse (WIP).
