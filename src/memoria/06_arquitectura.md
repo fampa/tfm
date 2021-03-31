@@ -12,3 +12,12 @@ El diagrama de flux de la nostra aplicació el podem observar a la @fig:diagrama
 WIP
 
 ![Diagrama de flux](img/diagrama-flux.svg){#fig:diagramaFlux}
+
+## Repositoris
+
+- Frontend i NodeServer: <https://github.com/fampa/ampa-pwa>
+- Backend: <https://github.com/fampa/ampa-graphql>
+
+## URL de l'aplicació
+
+<https://fampa-pwa.web.app/>
