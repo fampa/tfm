@@ -22,15 +22,17 @@ El menú (@fig:login) tindrà dues parts diferenciades, una visible per a tothom
 
 ![Login i menu](img/mockups/login-menu.svg){#fig:login}
 
-A la @fig:usuaris podem veure el formulari de dades personals i relatius a la família, així com el llistat que gestionaran només els administradors
+A la @fig:usuaris podem veure el formulari de dades personals i familiars. També observem el llistat que gestionaran només els administradors
 
-![Gestió d'usuaris](img/mockups/usuaris.svg){#fig:usuaris}
+![Gestió d'usuaris](img/mockups/usuaris.svg){#fig:usuaris width=450px}
 
 Per a la gestió de serveis com ara la matinera o les extraescolars (@fig:serveis) s'ha optat per presentar-ho en forma de taula i una vegada fem click que ens porte als detalls.
 
 ![Gestió de serveis](img/mockups/serveis.svg){#fig:serveis}
 
-En la portada tindrem el blog
+En la portada tindrem el blog on comptarem a una vista de targetes tal i com podem veure a la @fig:blog i al fer click a la targeta anirem als detalls de l'article. També podem veure el llistat d'articles tal i com ho veurà l'administrador.
+
+![Blog](img/mockups/serveis.svg){#fig:blog}
 
 ## Desenvolupament del _backend_
 
@@ -68,13 +70,15 @@ Quan completem una fita a la nostra app, podem fer _squash_ per unir les migraci
 
 ## Desenvolupament del _frontend_
 
-En primer lloc instal·lem quasar:
+El codi font està disponible a <https://github.com/fampa/ampa-pwa>
+
+En primer lloc hen instal·lat Quasar:
 
 `yarn global add @quasar/cli`
 
-I creem el projecte:
+I hem creat el projecte:
 
-`quasar create <folder_name>`
+`quasar create ampa-pwa`
 
 Si volem usar Quasar V2.0 necessitarem un pas extra ja que a la data d'escriure aquesta documentació aquesta versió no es troba a la branca principal.
 
@@ -112,6 +116,8 @@ Per a que totes les targetes de notícies tinguen la mateixa alçada independent
   text-overflow: ellipsis;
 }
 ```
+
+WIP
 
 ### Client de GraphQl
 

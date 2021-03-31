@@ -68,4 +68,5 @@ header-includes: |
     \cfoot{\thepage}
     \usepackage{setspace}
     \doublespacing
+    \usepackage[section]{placeins}
 ---
