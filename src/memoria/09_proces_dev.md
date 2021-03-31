@@ -20,19 +20,19 @@ Per a la pantalla de login, tal i com es pot observar a la @fig:login, he optat 
 
 El menú (@fig:login) tindrà dues parts diferenciades, una visible per a tothom i l'altra de gestió només visible per a administradors.
 
-![Login i menu](img/mockups/login-menu.svg){#fig:login}
+![Mockup: Login i menu](img/mockups/login-menu.svg){#fig:login}
 
 A la @fig:usuaris podem veure el formulari de dades personals i familiars. També observem el llistat que gestionaran només els administradors
 
-![Gestió d'usuaris](img/mockups/usuaris.svg){#fig:usuaris width=450px}
+![Mockup: Gestió d'usuaris](img/mockups/usuaris.svg){#fig:usuaris width=450px}
 
 Per a la gestió de serveis com ara la matinera o les extraescolars (@fig:serveis) s'ha optat per presentar-ho en forma de taula i una vegada fem click que ens porte als detalls.
 
-![Gestió de serveis](img/mockups/serveis.svg){#fig:serveis}
+![Mockup: Gestió de serveis](img/mockups/serveis.svg){#fig:serveis}
 
 En la portada tindrem el blog on comptarem a una vista de targetes tal i com podem veure a la @fig:blog i al fer click a la targeta anirem als detalls de l'article. També podem veure el llistat d'articles tal i com ho veurà l'administrador.
 
-![Blog](img/mockups/serveis.svg){#fig:blog}
+![Mockup: Blog](img/mockups/serveis.svg){#fig:blog}
 
 ## Desenvolupament del _backend_
 
