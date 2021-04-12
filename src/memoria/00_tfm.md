@@ -38,7 +38,7 @@ author:
     - "Autor: _Josep V. Monjo Agut_"
     - "Professor: _César Pablo Córcoles Briongos_"
 keywords: [PWA, AMPA, GraphQL, VueJS, NodeJS, Hasura, Quasar]
-date: 'PAC 2 - 31/03/2021'
+date: 'PAC 3 - 09/05/2021'
 lang: ca
 # include-before:
 # - '`\newpage{}`{=latex}'
