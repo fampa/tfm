@@ -7,11 +7,19 @@ L'aplicació segueix un model MVVM[^mvvm]. Es tracta d'un model de desenvolupame
 
 ![Model MVVM. Font: https://vuejs.org](img/mvvm-vue.png){#fig:mvvm}
 
-El diagrama de flux de la nostra aplicació el podem observar a la @fig:diagramaFlux.
+## Diagrames
 
-WIP
+El diagrama de flux de les peticions de dades entre el client i la base de dades de la nostra aplicació el podem observar a la @fig:diagramaFlux.
 
-![Diagrama de flux](img/diagrama-flux.svg){#fig:diagramaFlux}
+![Diagrama de flux de dades](img/diagrama-flux.svg){#fig:diagramaFlux}
+
+A la @fig:diagLogin podem observar el flux quan fem login a l'aplicació. Hi ha que tindre en compte que la llibreria Firebase Ui usa la mateixa porta d'entrada per fer login que per fer sign up.
+
+![Diagrama de flux login](img/login.svg){#fig:diagLogin}
+
+Un ús típic de l'aplicació serà la sol·licitud de serveis com ara les activitats extraescolars, tal i com es pot veure a la @fig:diagContracte.
+
+![Diagrama de flux de sol·licitud de serveis](img/contracte.svg){#fig:diagContracte}
 
 ## Repositoris
 
