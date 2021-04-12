@@ -119,7 +119,7 @@ Per a que totes les targetes de notícies tinguen la mateixa alçada independent
 
 WIP
 
-### Client de GraphQl
+### Client de GraphQL
 
 Afegim support per a _GraphQl_ amb _Apollo client_.
 
@@ -299,6 +299,14 @@ Per a generar les icones necessàries de manera automàtica usarem esta eina:
 Per generar les icones:
 
 `icongenie generate -i src/assets/icon.png`
+
+### Experiència d'usuari (UX)
+
+#### Experiència onboarding
+
+S'ha procurat que el fluxe re registre tinga el mínim de fricció possible. Per a això, a priori no apareix cap botó de crida a l'acció per a l'alta i s'ha substituït per tres senzills botons per fer login o _sign-up_.
+
+La resta de dades necessàries es pregunten a una nova pantalla evitant així una reacció adversa que presentaria mostrar el formulari sencer de primeres [@enders_designing_2016].
 
 ### Optimitzacions
 
