@@ -36,6 +36,10 @@ Per a footnotes:
 
 `texlive-mdwtools`
 
+Manipulació d'imatges i svg:
+
+`sudo apt install librsvg2-bin`
+
 També cal tenir en compte que el _output_ de pandoc necessita les següents opcions:
 
 `-f markdown+implicit_figures *.md --standalone --highlight-style=zenburn --filter pandoc-crossref --citeproc`
