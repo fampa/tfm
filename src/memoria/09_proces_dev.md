@@ -226,7 +226,7 @@ const store = createStore({
 });
 ```
 
-### Autenticació i autorització
+### Autenticació
 
 Usarem Firebase per tasques d'autorització i autenticació.
 
@@ -247,6 +247,35 @@ Configurarem les credencials de Firebase amb variables ambientals, de manera que
 Per al _flow_ d'autenticació usarem la llibreria FirebaseUi:
 
 `yarn add firebaseui`
+
+### Autorització
+
+Assegurarem la nostra aplicació mitjançant mecanismes d'autorització tant en el _backend_ com en el _frontend_
+
+#### Backend
+
+Hasura proporciona un sistema nadiu d'autorització granular que permet gestionar permisos d'accés tant a nivell de taules, com de columnes com de camps individuals, tal i com es pot veure a la @fig:hasuraAuth
+
+![Sistema d'autorització de Hasura]('./img/hasura-auth.jpg.jpg'){#fig:hasuraAuth}
+
+#### Frontend
+
+Per a controlar l'autorització al _frontend_ usarem Vue Router. Concretament afegirem els requisits d'accés al paràmetre meta de la ruta dins de `src/router/routes.ts`
+
+```js
+{
+    path: '/user',
+    meta: { requiresAuth: true },
+    // ...
+},
+{
+    path: '/admin',
+    meta: { requiresScope: 'admin' },
+    // ...
+}
+```
+
+Això ens permetrà usar el mètode `router.beforeEach` per comprovar si eixa ruta està protegida i comparar amb el nivell d'autorització de l'usuari.
 
 ### PWA
 
