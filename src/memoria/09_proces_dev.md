@@ -256,7 +256,7 @@ Assegurarem la nostra aplicació mitjançant mecanismes d'autorització tant en 
 
 Hasura proporciona un sistema nadiu d'autorització granular que permet gestionar permisos d'accés tant a nivell de taules, com de columnes com de camps individuals, tal i com es pot veure a la @fig:hasuraAuth
 
-![Sistema d'autorització de Hasura]('./img/hasura-auth.jpg.jpg'){#fig:hasuraAuth}
+![Sistema d'autorització de Hasura](img/hasura-auth.jpg){#fig:hasuraAuth}
 
 #### Frontend
 
