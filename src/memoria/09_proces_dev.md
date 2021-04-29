@@ -337,6 +337,10 @@ S'ha procurat que el fluxe de registre d'usuaris tinga el mínim de fricció pos
 
 La resta de dades necessàries es pregunten a una nova pantalla evitant així una reacció adversa que presentaria mostrar el formulari sencer de primeres [@enders_designing_2016].
 
+#### Velocitat de càrrega
+
+WIP tècnica skeleton  https://www.lukew.com/ff/entry.asp?1797
+
 ### Optimitzacions
 
 Proves de rendiment amb Lighthouse (WIP).
