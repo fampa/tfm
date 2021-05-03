@@ -6,18 +6,58 @@ No cal recordar que el context actual de pandèmia mundial propícia que cada ve
 
 És en aquest context que sorgeix la necessitat de modernitzar la gestió de l'Associació de Mares i Pares d'Alumnes (AMPA).
 
-Fent un estudi de mercat, en un primer moment es va plantejar la possibilitat d'elaborar un model _SaaS_[^sass]. En aquest cas l'aplicació podria contenir la gestió de diferents AMPA i cadascuna d'elles podria tindre el seu propi subdomini. Aquest és el model més freqüent al mercat per a quest tipus d'aplicacions web. Per exemple:
+### Estudi de mercat
 
-- Mi ampa: [https://miampa.com/](https://miampa.com/)
-- playoff gestión de asociaciones: [https://playoffinformatica.com/gestion-de-asociaciones/](https://playoffinformatica.com/gestion-de-asociaciones/)
-- AmpaSoft: [https://ampasoft.es/](https://ampasoft.es/)
-- AmpaNet: [https://www.ampanet.es/](https://www.ampanet.es/)
-- EduTeca: [https://edutecaservicios.es/software-especializado/](https://edutecaservicios.es/software-especializado/)
-- GesAmpa: [https://gesampa.com/joomla/](https://gesampa.com/joomla/)
+Fent un estudi de mercat, en un primer moment es va plantejar la possibilitat d'elaborar un model _SaaS_[^sass]. En aquest cas l'aplicació podria contenir la gestió de diferents AMPA i cadascuna d'elles podria tindre el seu propi subdomini. Aquest és el model més freqüent al mercat per a quest tipus d'aplicacions web.
 
 No obstant això, aquesta possibilitat es va descartar perquè la finalitat inicial no era muntar un negoci _SaaS_ si no desenvolupar internament una eina per a l'autogestió de la AMPA de la que forme part com a membre de la Junta, fent-la el més oberta i transparent possible per a que puga ser implementada a altres AMPA o associacions que no vulguen un model de subscripció si no un d'autogestionat.
 
 [^sass]: De les segles en anglès _Software as a Service_.
+
+No obstant això, aquesta aplicació és relativament fàcil de reconvertir a un model de SaaS si en el futur es volgués usar per aquesta finalitat, ja que no totes les AMPA disposen de personal qualificat per posar en marxa una aplicació web a partir del seu repositori públic.
+
+A continuació detallaré un **estudi de la competència** en aquest sector.
+
+#### Mi ampa
+
+- Url: <https://miampa.com/>
+- Model de negoci: SaaS
+- Descripció: ofereix inscripció online de socis, comptabilitat, multiidioma, gestió d'esdeveniments, extraescolars, tenda, galeria d'imatges, menus, carnet virtual, enquestes, web, personalització.
+- Preu: s/d
+
+#### playoff gestión de asociaciones
+
+- Url: <https://playoffinformatica.com/gestion-de-asociaciones>
+- Model de negoci: SaaS
+- Descripció: Versàtil per a qualsevol tipus d'associació. Gestió de pagaments online i rebuts SEPA, gestió d'activitats, comunicacions per correu i mòbil, carnet virtual.
+- Preu: entre 25€ i 65€ mensuals
+
+#### AmpaSoft
+
+- Url: <https://ampasoft.es/>
+- Model de negoci: SaaS
+- Descripció: gestió d'alumnes/pares, gestió econòmica (generació de remeses bancàries), missatgeria.
+- Preu: s/d
+
+#### AmpaNet
+
+- Url: <https://www.ampanet.es/>
+- Model de negoci: SaaS
+- Descripció: gestió d'alumnes/pares, extraescolars, menjador, acampades, activitats, rebuts SEPA, web, tenda.
+- Preu: s/d
+
+#### EduTeca
+
+- Url: <https://edutecaservicios.es/software-especializado/>
+- Model de negoci: SaaS
+- Descripció: Gestió altes/baixes, tallers/activitats, comunicacions, actes de junta i assemblea, web, memòria d'activitat i control de pressupost, matinera, menjador, comptabilitat, remeses bancàries.
+
+#### GesAmpa
+
+- Url: <https://gesampa.com/joomla/>
+- Model de negoci: Llicència d'ús de Software + suport.
+- Descripció: Gestió de membres i domiciliacions bancàries.
+- Preu: des de 15€/mes o 100€/any
 
 ## Justificació del Treball
 
