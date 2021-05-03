@@ -21,6 +21,10 @@ Un ús típic de l'aplicació serà la sol·licitud de serveis com ara les activ
 
 ![Diagrama de flux de sol·licitud de serveis](img/contracte.svg){#fig:diagContracte}
 
+A la @fig:diagClasses podeu observar el diagrama de classes en el que s'ha basat el disseny de la base de dades.
+
+![Diagrama de classes](img/Diagrama-de-classes.svg){#fig:diagClasses}
+
 ## Repositoris
 
 - Frontend i NodeServer: <https://github.com/fampa/ampa-pwa>
