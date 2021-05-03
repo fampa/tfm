@@ -11,7 +11,7 @@ L'aplicació segueix un model MVVM[^mvvm]. Es tracta d'un model de desenvolupame
 
 El diagrama de flux de les peticions de dades entre el client i la base de dades de la nostra aplicació el podem observar a la @fig:diagramaFlux.
 
-![Diagrama de flux de dades](img/diagrama-flux.svg){#fig:diagramaFlux}
+![Diagrama de flux bàsic d'autorització](img/diagrama-flux.svg){#fig:diagramaFlux}
 
 A la @fig:diagLogin podem observar el flux quan fem login a l'aplicació. Hi ha que tindre en compte que la llibreria Firebase Ui usa la mateixa porta d'entrada per fer login que per fer sign up.
 
