@@ -329,7 +329,7 @@ Per generar les icones:
 
 `icongenie generate -i src/assets/icon.png`
 
-### Experiència d'usuari (UX)
+### Estudi d'usabilitat / Experiència d'usuari (UX)
 
 #### Experiència onboarding
 
@@ -337,9 +337,19 @@ S'ha procurat que el fluxe de registre d'usuaris tinga el mínim de fricció pos
 
 La resta de dades necessàries es pregunten a una nova pantalla evitant així una reacció adversa que presentaria mostrar el formulari sencer de primeres [@enders_designing_2016].
 
-#### Velocitat de càrrega
+#### Velocitat de càrrega percebuda
 
-WIP tècnica skeleton  https://www.lukew.com/ff/entry.asp?1797
+És important que una aplicació carregue de manera ràpida, però això no sempre és possible. Per exemple, necessitem cridar a una api per obtenir les dades, o necessitem carregar imatges o altres fonts multimèdia.
+
+Tradicionalment aquest aspecte s'ha solucionat amb indicadors de càrrega com ara spinners. No obstant això, aquest indicadors s'han anat substituint per altres elements que fan que la percepció de la velocitat de càrrega siga major, com ara el conegut _skeleton_. Una tècnica usada per exemple per pàgines com ara facebook o la cerca de Google [@wroblewski_mobile_2013].
+
+#### Targetes (cards)
+
+L'ús de targetes està destinat a resoldre el problema d'haver de presentar informació d'una manera resumida, ampliable al fer click sobre ella o sobre un element intern d'aquesta [^cards].
+
+[^cards]: <https://ui-patterns.com/patterns/cards/>
+
+En aquesta app fem ús de les targetes per presentar les entrades del blog, per exemple.
 
 ### Optimitzacions
 
