@@ -351,6 +351,14 @@ L'ús de targetes està destinat a resoldre el problema d'haver de presentar inf
 
 En aquesta app fem ús de les targetes per presentar les entrades del blog, per exemple.
 
+#### Scroll infinit
+
+Quan tenim moltes dades que carregar necessitem algun mecanisme de paginació. Un d'ells és el conegut com a _infinite scroll_ que proporciona una manera còmoda d'anar carregant nous continguts a l'usuari a mesura que fa _scroll_ a la nostra app [^infiniteScroll].
+
+[^infiniteScroll]: <http://ui-patterns.com/patterns/ContinuousScrolling>
+
+Ho hem usat per carregar articles del blog a la portada.
+
 ### Optimitzacions
 
 Proves de rendiment amb Lighthouse (WIP).
