@@ -347,7 +347,7 @@ Tradicionalment aquest aspecte s'ha solucionat amb indicadors de càrrega com ar
 
 L'ús de targetes està destinat a resoldre el problema d'haver de presentar informació d'una manera resumida, ampliable al fer click sobre ella o sobre un element intern d'aquesta [^cards].
 
-[^cards]: <https://ui-patterns.com/patterns/cards/>
+[^cards]: <http://ui-patterns.com/patterns/cards/>
 
 En aquesta app fem ús de les targetes per presentar les entrades del blog, per exemple.
 
