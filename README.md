@@ -28,10 +28,6 @@ Idiomes extra
 
 `sudo apt-get install texlive-lang-spanish`
 
-Gestió de la bibliografia
-
-`sudo apt install pandoc-citeproc`
-
 Per a footnotes:
 
 `texlive-mdwtools`
@@ -39,6 +35,14 @@ Per a footnotes:
 Manipulació d'imatges i svg:
 
 `sudo apt install librsvg2-bin`
+
+Comando per a Fedora:
+
+Es recomanen els binaris de [pandoc](https://github.com/jgm/pandoc/releases) i [pandoc-crossref](https://github.com/lierdakil/pandoc-crossref/releases/)
+
+I les llibreries de latex
+
+`sudo dnf install texlive librsvg2-tools texlive-mdwtools texlive-collection-langspanish texlive-framed`
 
 També cal tenir en compte que el _output_ de pandoc necessita les següents opcions:
 
