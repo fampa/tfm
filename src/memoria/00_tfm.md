@@ -19,7 +19,7 @@ abstract: >
     **keywords:** PWA, AMPA, GraphQL, VueJS, NodeJS, Hasura, Quasar
 author:
     - "Autor: _Josep V. Monjo Agut_"
-    - "Professor: _César Pablo Córcoles Briongos_"
+    - "Professors: _César Pablo Córcoles Briongos_ i _Carles Arnal Castello_"
 keywords: [PWA, AMPA, GraphQL, VueJS, NodeJS, Hasura, Quasar]
 date: 'PAC 3 - 09/05/2021'
 lang: ca
