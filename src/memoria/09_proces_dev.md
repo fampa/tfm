@@ -331,6 +331,10 @@ Per generar les icones:
 
 ### Estudi d'usabilitat / Experiència d'usuari (UX)
 
+#### Persona
+
+A l'annexe 2 podem veure un estudi de _persona_ on analitzem l'usuari arquetípic de la app, així com els usos que en farà d'aquesta.
+
 #### Experiència onboarding
 
 S'ha procurat que el fluxe de registre d'usuaris tinga el mínim de fricció possible. Per a això, a priori no apareix cap botó de crida a l'acció per a l'alta i s'ha substituït per tres senzills botons per fer login o _sign-up_.

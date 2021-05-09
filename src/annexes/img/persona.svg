@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210.0mm"
+   height="297.0mm"
+   viewBox="0 0 210.0 297.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="persona.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
+  <defs
+     id="defs179">
+    <rect
+       x="65.070964"
+       y="49.499378"
+       width="70.730271"
+       height="49.143549"
+       id="rect46" />
+    <rect
+       x="29.60026"
+       y="68.537714"
+       width="125.50138"
+       height="42.805804"
+       id="rect194" />
+    <clipPath
+       id="clipPath20"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path22"
+         d="M 0,600 H 750.333 V 0 H 0 Z" />
+    </clipPath>
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="328.78344"
+       height="147.76456"
+       id="rect285-1" />
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="329.81842"
+       height="92.054359"
+       id="rect129" />
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="311.48553"
+       height="38.040382"
+       id="rect285" />
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="311.48553"
+       height="38.040382"
+       id="rect132" />
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="130.76364"
+       height="74.194672"
+       id="rect285-8" />
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="130.76364"
+       height="74.194672"
+       id="rect135" />
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="130.76364"
+       height="74.194672"
+       id="rect285-8-3" />
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="130.76364"
+       height="74.194672"
+       id="rect119" />
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="311.48553"
+       height="38.040382"
+       id="rect285-5" />
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="311.48553"
+       height="38.040382"
+       id="rect190" />
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="311.48553"
+       height="38.040382"
+       id="rect285-5-5" />
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="311.48553"
+       height="38.040382"
+       id="rect226" />
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="328.78345"
+       height="147.76456"
+       id="rect285-1-2" />
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="328.78345"
+       height="147.76456"
+       id="rect263" />
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="130.76364"
+       height="74.194672"
+       id="rect285-8-0" />
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="130.76364"
+       height="74.194672"
+       id="rect346" />
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="51.709835"
+       height="16.177899"
+       id="rect285-8-0-5" />
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="130.76364"
+       height="74.194672"
+       id="rect408" />
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="114.65743"
+       height="19.850557"
+       id="rect285-8-0-5-4" />
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="51.709835"
+       height="16.177898"
+       id="rect444" />
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="170.93491"
+       height="17.116881"
+       id="rect285-8-0-5-4-1" />
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="114.65743"
+       height="19.850557"
+       id="rect489" />
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="311.48553"
+       height="38.040382"
+       id="rect285-5-1" />
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="311.48553"
+       height="38.040382"
+       id="rect534" />
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="328.78345"
+       height="147.76456"
+       id="rect285-1-2-5" />
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="328.78345"
+       height="147.76456"
+       id="rect537" />
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="311.48553"
+       height="38.040382"
+       id="rect285-5-1-7" />
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="311.48553"
+       height="38.040382"
+       id="rect617" />
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="328.65339"
+       height="100.83544"
+       id="rect285-1-2-5-6" />
+    <rect
+       x="783.15314"
+       y="441.16605"
+       width="328.78345"
+       height="147.76456"
+       id="rect620" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="1751.7792"
+     inkscape:cy="526.35881"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1014"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     showguides="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid673" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata182">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       id="text192"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect194);fill:#000000;fill-opacity:1;stroke:none;"
+       transform="translate(54.926141,-36.138067)"><tspan
+         x="29.599609"
+         y="78.390161"><tspan
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman,  Bold Italic'">&quot;Ens passem la vida </tspan></tspan><tspan
+         x="29.599609"
+         y="92.108599"><tspan
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman,  Bold Italic'">treballant, dins i fora </tspan></tspan><tspan
+         x="29.599609"
+         y="105.82704"><tspan
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman,  Bold Italic'">de casa&quot;</tspan></tspan></text>
+    <path
+       id="path14"
+       style="fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.304325"
+       d="M 0.12949128,27.849334 H 210.24526 V 0.06775284 H 0.12949128 Z" />
+    <g
+       id="g16"
+       transform="matrix(0.28033278,0,0,-0.33072917,0.12949128,198.50559)">
+      <g
+         clip-path="url(#clipPath20)"
+         id="g18">
+        <path
+           id="path24"
+           style="fill:none;stroke:#4d4d4d;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           d="M 750.333,516 H 0 v 84 h 750.333 z" />
+      </g>
+    </g>
+    <text
+       id="text68"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.2984px;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';writing-mode:lr-tb;fill:#f7931e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.256217"
+       x="22.858482"
+       y="18.688606"><tspan
+         id="tspan70"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';stroke-width:0.256217"
+         x="22.858482"
+         y="18.688606"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman,  Bold';stroke-width:0.256217"
+           id="tspan136">Mònica Sanchís Ferreres</tspan></tspan></text>
+    <path
+       id="path12"
+       style="fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.363369"
+       d="M 205.49798,143.52073 H 84.01025 V 81.989184 h 121.48773 z" />
+    <text
+       xml:space="preserve"
+       id="text283-4"
+       style="font-style:normal;font-weight:normal;font-size:16.6513px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect285-1);fill:#f7931e;fill-opacity:1;stroke:none;"
+       transform="matrix(0.34742954,-0.00131753,0.00179002,0.33072895,-184.82722,-45.616382)"><tspan
+         x="783.15234"
+         y="456.66838"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.6513px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#000000;fill-opacity:1">Li agrada anar d'excursió amb els seus fills </tspan></tspan><tspan
+         x="783.15234"
+         y="478.25236"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.6513px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#000000;fill-opacity:1">Albert i Joan. Gaudeix amb les pelis de </tspan></tspan><tspan
+         x="783.15234"
+         y="499.83635"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.6513px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#000000;fill-opacity:1">Marvel i amb els passejos en bicicleta.
+</tspan></tspan><tspan
+         x="783.15234"
+         y="521.42033"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.6513px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#000000;fill-opacity:1">
+</tspan></tspan><tspan
+         x="783.15234"
+         y="543.00431"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.6513px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#000000;fill-opacity:1">Intenta treballar per a viure i no viure per a </tspan></tspan><tspan
+         x="783.15234"
+         y="564.5883"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.6513px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#000000;fill-opacity:1">treballar</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text283"
+       style="font-style:normal;font-weight:normal;font-size:29.1397px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect285);fill:#f7931e;fill-opacity:1;stroke:none;"
+       transform="matrix(0.34742954,-0.00131753,0.00179002,0.33072895,-185.24818,-59.692976)"><tspan
+         x="783.15234"
+         y="468.29508"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.1397px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#f7931e;fill-opacity:1">Motivació</tspan></tspan></text>
+    <g
+       id="g695"
+       transform="translate(0.06055325,-22.109245)">
+      <text
+         xml:space="preserve"
+         id="text283-9"
+         style="font-style:normal;font-weight:normal;font-size:13.5292px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect285-8);fill:#f7931e;fill-opacity:1;stroke:none;"
+         transform="matrix(0.34742954,-0.00131753,0.00179002,0.33072895,-286.31552,-36.778317)"
+         x="134.34073"
+         y="0"><tspan
+           x="881.39185"
+           y="453.7617"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5292px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';text-align:end;text-anchor:end">Ed</tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';text-align:end;text-anchor:end">at:
+</tspan></tspan><tspan
+           x="849.38183"
+           y="471.29872"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';text-align:end;text-anchor:end">Estat civil:
+</tspan></tspan><tspan
+           x="884.70649"
+           y="488.83574"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';text-align:end;text-anchor:end">Fil</tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5292px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';text-align:end;text-anchor:end">ls:
+</tspan></tspan><tspan
+           x="855.28057"
+           y="506.37275"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5292px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';text-align:end;text-anchor:end">Ocupació:</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         id="text283-9-6"
+         style="font-style:normal;font-weight:normal;font-size:13.5292px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect285-8-3);fill:#f7931e;fill-opacity:1;stroke:none;"
+         transform="matrix(0.34742954,-0.00131753,0.00179002,0.33072895,-238.77915,-36.917676)"
+         x="235.09628"
+         y="0"><tspan
+           x="783.15234"
+           y="453.7617"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';text-align:start;text-anchor:start;fill:#000000">38
+</tspan></tspan><tspan
+           x="783.15234"
+           y="471.29872"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';text-align:start;text-anchor:start;fill:#000000">casada
+</tspan></tspan><tspan
+           x="783.15234"
+           y="488.83574"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';text-align:start;text-anchor:start;fill:#000000">Albert (5) i Joan (3)
+</tspan></tspan><tspan
+           x="783.15234"
+           y="506.37275"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';text-align:start;text-anchor:start;fill:#000000">Funcionària</tspan></tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       id="text283-3"
+       style="font-style:normal;font-weight:normal;font-size:29.1397px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect285-5);fill:#f7931e;fill-opacity:1;stroke:none;"
+       transform="matrix(0.34742954,-0.00131753,0.00179002,0.33072895,-185.69928,4.072861)"><tspan
+         x="783.15234"
+         y="468.29508"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '">Objectius</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text283-4-6"
+       style="font-style:normal;font-weight:normal;font-size:16.6513px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect285-1-2);fill:#f7931e;fill-opacity:1;stroke:none;"
+       transform="matrix(0.34742954,-0.00131753,0.00179002,0.33072895,-185.70216,18.428518)"><tspan
+         x="783.15234"
+         y="456.66838"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#000000">- Passar el màxim de temps possible amb els </tspan></tspan><tspan
+         x="783.15234"
+         y="478.25236"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#000000">seus fills
+</tspan></tspan><tspan
+         x="783.15234"
+         y="499.83635"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#000000">- Romandre segurs evitant espais amb alta </tspan></tspan><tspan
+         x="783.15234"
+         y="521.42033"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#000000">aglomeració de gent</tspan></tspan></text>
+    <g
+       id="g714"
+       transform="translate(1.9105595,-15.459872)">
+      <path
+         id="path150"
+         style="fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.2934"
+         d="M 69.856659,159.19617 H 10.569692 v -5.95313 h 59.286967 z" />
+      <path
+         id="path162"
+         style="fill:#f7931e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.2934"
+         d="M 65.104134,159.19617 H 10.569692 v -5.95313 h 54.534442 z" />
+      <text
+         xml:space="preserve"
+         id="text283-9-61"
+         style="font-style:normal;font-weight:normal;font-size:13.5292px;line-height:1.25;font-family:sans-serif;text-align:start;white-space:pre;shape-inside:url(#rect285-8-0);fill:#f7931e;fill-opacity:1;stroke:none"
+         transform="matrix(0.34742954,-0.00131753,0.00179002,0.33072895,-262.65919,-5.9221433)"
+         x="134.34073"
+         y="0"><tspan
+           x="783.15234"
+           y="453.7617"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5292px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';text-align:start;text-anchor:start">Experiència:</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         id="text283-9-61-9"
+         style="font-style:normal;font-weight:normal;font-size:13.5292px;line-height:1.25;font-family:sans-serif;text-align:start;white-space:pre;shape-inside:url(#rect285-8-0-5);fill:#000000;fill-opacity:1;stroke:none;"
+         transform="matrix(0.34742954,-0.00131753,0.00179002,0.33072895,-262.44204,2.9326446)"
+         x="134.34073"
+         y="0"><tspan
+           x="783.15234"
+           y="453.7617"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5292px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';text-align:start;text-anchor:start;fill:#000000">Mòbil:</tspan></tspan></text>
+      <path
+         id="path150-9"
+         style="fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.2934"
+         d="M 70.001704,171.83227 H 10.714737 v -5.95313 h 59.286967 z" />
+      <path
+         id="path162-0"
+         style="fill:#f7931e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.205976"
+         d="M 37.592003,171.83227 H 10.714737 v -5.95313 h 26.877266 z" />
+      <text
+         xml:space="preserve"
+         id="text283-9-61-9-9"
+         style="font-style:normal;font-weight:normal;font-size:13.5292px;line-height:1.25;font-family:sans-serif;text-align:start;white-space:pre;shape-inside:url(#rect285-8-0-5-4);fill:#000000;fill-opacity:1;stroke:none;"
+         transform="matrix(0.34742954,-0.00131753,0.00179002,0.33072895,-262.297,15.568754)"
+         x="134.34073"
+         y="0"><tspan
+           x="783.15234"
+           y="453.7617"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5292px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';text-align:start;text-anchor:start;fill:#000000">Ordinador:</tspan></tspan></text>
+      <path
+         id="path150-9-7"
+         style="fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.2934"
+         d="M 70.155697,185.08272 H 10.86873 v -5.95313 h 59.286967 z" />
+      <path
+         id="path162-0-7"
+         style="fill:#f7931e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.29391"
+         d="M 65.593184,185.08272 H 10.86873 v -5.95313 h 54.724454 z" />
+      <text
+         xml:space="preserve"
+         id="text283-9-61-9-9-1"
+         style="font-style:normal;font-weight:normal;font-size:13.5292px;line-height:1.25;font-family:sans-serif;text-align:start;white-space:pre;shape-inside:url(#rect285-8-0-5-4-1);fill:#000000;fill-opacity:1;stroke:none;"
+         transform="matrix(0.34742954,-0.00131753,0.00179002,0.33072895,-262.14301,28.819197)"
+         x="134.34073"
+         y="0"><tspan
+           x="783.15234"
+           y="453.7617"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5292px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';text-align:start;text-anchor:start;fill:#000000">E-commerce:</tspan></tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       id="text283-3-9"
+       style="font-style:normal;font-weight:normal;font-size:29.1397px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect285-5-1);fill:#f7931e;fill-opacity:1;stroke:none;"
+       transform="matrix(0.34742954,-0.00131753,0.00179002,0.33072895,-185.7369,50.540584)"><tspan
+         x="783.15234"
+         y="468.29508"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '">Frustracions</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text283-4-6-7"
+       style="font-style:normal;font-weight:normal;font-size:16.6513px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect285-1-2-5);fill:#f7931e;fill-opacity:1;stroke:none;"
+       transform="matrix(0.34742954,-0.00131753,0.00179002,0.33072895,-185.80843,64.617926)"><tspan
+         x="783.15234"
+         y="456.66838"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#000000">- La burocràcia i la paperassa
+</tspan></tspan><tspan
+         x="783.15234"
+         y="478.25236"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#000000">- Les reunions de treball
+</tspan></tspan><tspan
+         x="783.15234"
+         y="499.83635"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#000000">- No poder portar els seus fills a l'escola en </tspan></tspan><tspan
+         x="783.15234"
+         y="521.42033"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#000000">persona</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text283-3-9-7"
+       style="font-style:normal;font-weight:normal;font-size:29.1397px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect285-5-1-7);fill:#f7931e;fill-opacity:1;stroke:none;"
+       transform="matrix(0.34742954,-0.00131753,0.00179002,0.33072895,-186.09086,97.983113)"><tspan
+         x="783.15234"
+         y="468.29508"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, '">Ús de la app del AMPA</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text283-4-6-7-3"
+       style="font-style:normal;font-weight:normal;font-size:16.6513px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect285-1-2-5-6);fill:#f7931e;fill-opacity:1;stroke:none;"
+       transform="matrix(0.34742954,-0.00131753,0.00179002,0.33072895,-185.25215,111.87959)"><tspan
+         x="783.15234"
+         y="456.66838"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#000000">- Donar-se d'alta online
+</tspan></tspan><tspan
+         x="783.15234"
+         y="478.25236"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#000000">- Apuntar als seus fills a la matinera
+</tspan></tspan><tspan
+         x="783.15234"
+         y="499.83635"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#000000">- Gestionar les extraescolars
+</tspan></tspan><tspan
+         x="783.15234"
+         y="521.42033"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';fill:#000000">- Mantenir-se informada de les activitats</tspan></tspan></text>
+    <image
+       width="45.155556"
+       height="45.155556"
+       preserveAspectRatio="none"
+       xlink:href="data:image/jpeg;base64,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
+"
+       id="image685"
+       x="19.055716"
+       y="36.19437" />
+  </g>
+</svg>
