@@ -329,6 +329,10 @@ Per generar les icones:
 
 `icongenie generate -i src/assets/icon.png`
 
+### Llibreria d'elaboració pròpia
+
+Per a la validació del dni faig ús d'una llibreria anomenada `spain-id` que vaig elaborar jo mateix i que està disponible a <https://www.npmjs.com/package/spain-id>.
+
 ### Estudi d'usabilitat / Experiència d'usuari (UX)
 
 #### Persona
