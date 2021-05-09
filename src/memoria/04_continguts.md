@@ -12,6 +12,7 @@ L'aplicació consisteix en les següents pàgines:
 - Matinera (detall): detall on contractar la matinera.
 - Diverses pàgines dinàmiques: com ara Qui som, Que fem, ...
 - Pàgina de contacte
+- Pàgina de política de privacitat i pàgina de condicions del servei.
 
 Els usuaris amb permisos d'administrador també podran veure els següents continguts:
 
