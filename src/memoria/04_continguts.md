@@ -10,10 +10,14 @@ L'aplicació consisteix en les següents pàgines:
 - Extraescolar (detall): pàgina de detall de l'activitat extraescolar o podem subscriure els nostres fills.
 - Matinera: llistat amb l'oferta d'escola matinera.
 - Matinera (detall): detall on contractar la matinera.
+- Diverses pàgines dinàmiques: com ara Qui som, Que fem, ...
+- Pàgina de contacte
 
 Els usuaris amb permisos d'administrador també podran veure els següents continguts:
 
-- Blog: llistat d'articles del blog
+- Blog: llistat d'articles del blog.
 - Blog (detall): Pàgina on editar o afegir un article del blog.
 - Membres: Llistat de membres del AMPA.
 - Membre (detall): la mateixa pàgina de Dades personals però amb els continguts de l'usuari seleccionat.
+- Pàgines: Llistat on editar i afegir pàgines.
+- Pàgina (detall): edició del contingut de la pàgina.
