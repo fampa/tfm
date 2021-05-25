@@ -9,6 +9,10 @@ L'aplicació segueix un model MVVM[^mvvm]. Es tracta d'un model de desenvolupame
 
 ## Diagrames
 
+A la @fig:diagramaCasosUs figura el diagrama de casos d'ús de l'aplicació, posant èmfasi en els dos tipus d'actor, els pares/mares i els gestors de l'AMPA.
+
+![Diagrama de casos d'ús](img/diagrama-casos-us.svg){#fig:diagramaCasosUs}
+
 El diagrama de flux de les peticions de dades entre el client i la base de dades de la nostra aplicació el podem observar a la @fig:diagramaFlux.
 
 ![Diagrama de flux bàsic d'autorització](img/diagrama-flux.svg){#fig:diagramaFlux}
