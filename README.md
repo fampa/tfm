@@ -36,7 +36,7 @@ Manipulació d'imatges i svg:
 
 `sudo apt install librsvg2-bin`
 
-Comando per a Fedora:
+## Comandos per a Fedora
 
 Es recomanen els binaris de [pandoc](https://github.com/jgm/pandoc/releases) i [pandoc-crossref](https://github.com/lierdakil/pandoc-crossref/releases/)
 
