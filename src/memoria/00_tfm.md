@@ -21,7 +21,7 @@ author:
     - "Autor: _Josep V. Monjo Agut_"
     - "Professors: _César Pablo Córcoles Briongos_ i _Carles Arnal Castello_"
 keywords: [PWA, AMPA, GraphQL, VueJS, NodeJS, Hasura, Quasar]
-date: 'PAC 3 - 09/05/2021'
+date: '06/06/2021'
 lang: ca
 toc: true
 lot: true
