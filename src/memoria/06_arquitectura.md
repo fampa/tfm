@@ -37,3 +37,37 @@ A la @fig:diagClasses podeu observar el diagrama de classes en el que s'ha basat
 ## URL de l'aplicació
 
 <https://fampa-pwa.web.app/>
+
+## Refactoring
+
+Durant el desenvolupament de l'aplicació s'ha dut a terme una refactorització important tant de la base de dades com del _frontend_.
+
+### Base de dades
+
+#### Problema a resoldre
+
+Molts dels camps d'algunes taules de la base de dades es repetien, portant a duplicitats i complexitat innecessàries.
+
+#### Solució
+
+A la base de dades s'ha aplicat la refactorització _Extract interface_ [^extract]. D'aquesta manera s'han pogut eliminar les taules Articles, Pages, Services, Tags i els corresponents Articles_translations, Pages_translations, Services_translations, Tags_translations, en favor de només dues taules: Contents i Contents_translations
+
+[^extract]: <https://refactoring.guru/extract-interface>
+
+### Frontend
+
+#### Problema a resoldre
+
+Havíem detectat un _code smell_[^smell] que consistia a una repetició de codi en diferents components encarregats de renderitzar diferents tipus de contingut.
+
+[^smell]: <https://refactoring.guru/refactoring/smells>
+
+Gràcies a la refactorització de la base de dades hem pogut refactoritzar també el codi al _frontend_.
+
+#### Solució
+
+També hem aplicat el _Extract method_ en aquest cas. Això ens ha permès eliminar els components específics que renderitzaven cadascún dels tipus de continguts per a passar a usar un únic component capaç de renderitzar tots ells.
+
+El _commit_ on hem dut a terme aquesta refactorització ha propiciat 2.263 eliminacions.
+
+![Resultat de la refactorització](img/refactoring.png)
