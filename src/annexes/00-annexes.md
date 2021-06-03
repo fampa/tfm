@@ -2,7 +2,7 @@
 title: "Annexes"
 subtitle: Memòria Final de Màster en Desenvolupament d'Aplicacions i Llocs Web
 author: 'Josep V. Monjo'
-date: '02/03/2021'
+date: '07/06/2021'
 lang: ca
 numbersections: true
 toc: true

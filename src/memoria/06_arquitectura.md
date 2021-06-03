@@ -27,6 +27,8 @@ Un ús típic de l'aplicació serà la sol·licitud de serveis com ara les activ
 
 A la @fig:diagClasses podeu observar el diagrama de classes en el que s'ha basat el disseny de la base de dades i dels models de TypeScript.
 
+Aquest és el resultat d'una important refactorització. Podeu veure el diagrama anterior a la refactorització a l'annex 3.
+
 ![Diagrama de classes](img/Diagrama-de-classes.svg){#fig:diagClasses}
 
 ## Repositoris
