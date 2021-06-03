@@ -9,6 +9,16 @@ L'aplicació segueix un model MVVM[^mvvm]. Es tracta d'un model de desenvolupame
 
 ## Diagrames
 
+A la @fig:diagramaArquitectura se'ns mostra un esquema de l'arquitectura de la nostra app.
+
+En resum la nostra app consta de 3 parts fonamentals:
+
+- La base de dades, allotjada a un VPS amb sistema operatiu Ubuntu, amb Docker i exposada a l'exterior amb un proxy invers (NGINX), mitjançant el framework Hasura, la qual cosa ens proporciona una base de dades PostgreSql i una API graphql.
+- El _frontend_, desenvolupat amb Quasar Framework (VueJS) i allotjat al CDN de Firebase, cosa que disminueix el temps de latència en la resposta.
+- Un _backend_ amb una arquitectura _serverless_ de Firebase Functions, que és bàsicament un servidor amb NodeJs on poder programar el nostre codi del costat del servidor. En aquest cas aquesta part de la infraestructura la usem per a l'enviament de missatges i tasques automatitzades com ara la creació del perfil per usuaris nous, l'atorgament de permisos d'usuari  i administrador, etc...
+
+![Diagrama Arquitectura app](img/arquitectura_app.svg){#fig:diagramaArquitectura}
+
 A la @fig:diagramaCasosUs figura el diagrama de casos d'ús de l'aplicació, posant èmfasi en els dos tipus d'actor, els pares/mares i els gestors de l'AMPA.
 
 ![Diagrama de casos d'ús](img/diagrama-casos-us.svg){#fig:diagramaCasosUs}
@@ -33,8 +43,8 @@ Aquest és el resultat d'una important refactorització. Podeu veure el diagrama
 
 ## Repositoris
 
-- Frontend i NodeServer: <https://github.com/fampa/ampa-pwa>
-- Backend: <https://github.com/fampa/ampa-graphql>
+- Frontend i Backend: <https://github.com/fampa/ampa-pwa>
+- Base de dades i GraphQL API: <https://github.com/fampa/ampa-graphql>
 
 ## URL de l'aplicació
 
