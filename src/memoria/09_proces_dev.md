@@ -151,16 +151,17 @@ const subscribe = () => {
       Notification.requestPermission()
         .then(async function (result) {
           if (result === 'granted') {
-            await navigator.serviceWorker.ready.then(function (registration) {
-              registration.showNotification('AMPA', {
-                body: 'Molt be! Ja pots rebre notificacions push',
-                icon: '/icons/icon-192x192.png',
-                requireInteraction: true,
-                badge: '/icons/icon-512x512.png',
-                vibrate: [200, 100, 200, 100, 200, 100, 200],
-                tag: 'ampa-tag'
+            await navigator.serviceWorker.ready
+              .then(function (registration) {
+                registration.showNotification('AMPA', {
+                  body: 'Molt be! Ja pots rebre notificacions push',
+                  icon: '/icons/icon-192x192.png',
+                  requireInteraction: true,
+                  badge: '/icons/icon-512x512.png',
+                  vibrate: [200, 100, 200, 100, 200, 100, 200],
+                  tag: 'ampa-tag'
+                })
               })
-            })
           }
           return messaging.getToken()
             .then(async function (currentToken) {
@@ -172,19 +173,19 @@ const subscribe = () => {
                 loading.value = false
               } else {
                 // Show permission request.
-                console.log('No Instance ID token available. Request permission to generate one.')
+                console.log('No Instance ID token available')
                 // Show permission UI.
                 updateUIForPushPermissionRequired()
                 loading.value = false
               }
             })
             .catch(function (err) {
-              console.log('An error occurred while retrieving token. ', err)
+              console.error('Error retrieving token', err)
               loading.value = false
             })
         })
         .catch(function (err) {
-          console.log('Unable to get permission to notify.', err)
+          console.error('Unable to get permission', err)
         })
     }
 ```
