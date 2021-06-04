@@ -99,11 +99,15 @@ Seguint les recomanacions a la web oficial de Quasar, he instal·lat la versió 
 
 ### Components
 
-Creem els components que necessitarem:
+Sempre que un grup de codi es repeteix en més d'un lloc de la nostra aplicació, o si volem separar diferents funcions en diferents arxius, sol ser un bon indicador de que podríem fer ús d'un component.
+
+Ací van alguns exemples
+
+#### NewsCard
 
 - src/components/NewsCard.vue
 
-Per a que totes les targetes de notícies tinguen la mateixa alçada independentment de la mida del titular he optat per una solució via css per fer elipsis del titular quan sobrepassa 2 línies:
+Com a curiositat, per a que totes les targetes de notícies tinguen la mateixa alçada independentment de la mida del titular he optat per una solució via css per fer elipsis del titular quan sobrepassa 2 línies:
 
 ```css
 .titular {
@@ -117,7 +121,73 @@ Per a que totes les targetes de notícies tinguen la mateixa alçada independent
 }
 ```
 
-WIP
+#### TranslationEditor
+
+- src/components/TranslationEditor
+
+Aquests és un dels components (o component de components) del que em sent més orgullós, ja que ens permet tindre el nostre propi CMS[^cms], per editar no només els articles del blog sino tots els continguts dinàmics de la web (pàgines, serveis, etiquetes,...).
+
+[^cms]: de les segles en anglés Content Management System
+
+Per a editar el contingut HTML he optat per un sistema WYSIWYG[^wysiwyg] amb la llibreria `tiptap`.
+
+[^wysiwyg]: de les segles en anglès What You See Is What You Get
+
+També he implementat un _uploader_ d'imatges al servei en el núvol Firebase Storage.
+
+#### PushToggle
+
+- src/components/PushToggle.vue
+
+Aquest és un altre component important ja que permet la subscripció del dispositiu de l'usuari per a rebre notificacions push.
+
+Per a fer-ho usa la web API nativa per a obtenir el permís de l'usuari, crida a Firebase Messaging per obtenir el token de subscripció i l'envia a la nostra base de dades per poder-lo usar posteriorment.
+
+```js
+const subscribe = () => {
+      loading.value = true
+      console.log('subscription initiated')
+      const messaging = firebase.messaging()
+      Notification.requestPermission()
+        .then(async function (result) {
+          if (result === 'granted') {
+            await navigator.serviceWorker.ready.then(function (registration) {
+              registration.showNotification('AMPA', {
+                body: 'Molt be! Ja pots rebre notificacions push',
+                icon: '/icons/icon-192x192.png',
+                requireInteraction: true,
+                badge: '/icons/icon-512x512.png',
+                vibrate: [200, 100, 200, 100, 200, 100, 200],
+                tag: 'ampa-tag'
+              })
+            })
+          }
+          return messaging.getToken()
+            .then(async function (currentToken) {
+              if (currentToken) {
+                await sendTokenToServer(currentToken)
+                $q.localStorage.set('pushToken', currentToken)
+                emit('pushToken', currentToken)
+                updateUIForPushEnabled()
+                loading.value = false
+              } else {
+                // Show permission request.
+                console.log('No Instance ID token available. Request permission to generate one.')
+                // Show permission UI.
+                updateUIForPushPermissionRequired()
+                loading.value = false
+              }
+            })
+            .catch(function (err) {
+              console.log('An error occurred while retrieving token. ', err)
+              loading.value = false
+            })
+        })
+        .catch(function (err) {
+          console.log('Unable to get permission to notify.', err)
+        })
+    }
+```
 
 ### Client de GraphQL
 
