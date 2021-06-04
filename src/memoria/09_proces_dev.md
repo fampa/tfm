@@ -369,4 +369,24 @@ Ho hem usat per carregar articles del blog a la portada.
 
 ### Optimitzacions
 
-Proves de rendiment amb Lighthouse (WIP).
+S'han realitzat proves de rendiment amb Lighthouse[^lighthouse], per avaluar el rendiment de l'aplicació així com les bones pràctiques pel que fa accessibilitat, SEO, PWA i d'altres.
+
+[^lighthouse]: <https://developers.google.com/web/tools/lighthouse>
+
+La prova s'ha realitzat sobre l'opció mòbil (Moto G4 emulat), i els resultats han estat els següents:
+
+#### Resultat preliminar
+
+A la @fig:lighthousePre tenim els resultats preliminars de l'aplicació a Lighthouse abans de fer cap intervenció específica.
+
+![Resultat preliminar de les proves amb Lighthouse](img/rendiment-pre.png){#fig:lighthousePre}
+
+#### Resultat post intervenció
+
+![Resultat post intervenció de les proves amb Lighthouse](img/rendiment-post.png){#fig:lighthousePost}
+
+Com es pot observar a la @fig:lighthousePost s'ha intervingut en l'aspecte SEO corregint el fitxer `robots.txt`. També s'ha intervengut en aspectes d'accessibilitat canviant els colors principals del lloc per tal de facilitar el contrast i per tant la lectura a persones amb dificultats de visió. També s'han afegit propietats `aria-label` a alguns botons per facilitar la lectura de pantalla per part d'invidents.
+
+Amb aquests canvis hem obtingut la màxima puntuació en accessibilitat, millors pràctiques, SEO i PWA.
+
+L'apartat que queda pendent de millorar és el de rendiment ja que al moment de redactar aquest informe Quasar v2 no permet configurar `rel=preload` ni altres millores com eliminar el javascript i el css no usat sense trencar l'aplicació degut a que encara s'està treballant en la integració d'aquest framework amb Webpack v4.
