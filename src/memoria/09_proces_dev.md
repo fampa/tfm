@@ -303,7 +303,7 @@ Usarem Firebase per tasques d'autorització i autenticació.
 
 El primer pas és crear un projecte a (<https://console.firebase.google.com/u/0/?pli=1>).
 
-També usarem Firebase Hosting per a allotjar la nostra app posteriorment, així com Cloud Functions per a usar com a servidor nodejs, Firebase Storage per allotjar imatges pujades pels usuaris, i Firebase RealTime Database per gestionar tokens.
+També usarem Firebase Hosting per a allotjar la nostra app posteriorment, així com Cloud Functions per a usar com a servidor nodejs, Firebase Storage per allotjar imatges pujades pels usuaris.
 
 Afegim Firebase a la nostra app:
 
