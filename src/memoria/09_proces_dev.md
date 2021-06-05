@@ -125,7 +125,7 @@ Com a curiositat, per a que totes les targetes de notícies tinguen la mateixa a
 
 - src/components/TranslationEditor
 
-Aquests és un dels components (o component de components) del que em sent més orgullós, ja que ens permet tindre el nostre propi CMS[^cms], per editar no només els articles del blog sino tots els continguts dinàmics de la web (pàgines, serveis, etiquetes,...).
+Aquest és un dels components (o component de components) del que em sent més orgullós, ja que ens permet tindre el nostre propi CMS[^cms], per editar no només els articles del blog sino tots els continguts dinàmics de la web (pàgines, serveis, etiquetes,...).
 
 [^cms]: de les segles en anglés Content Management System
 
