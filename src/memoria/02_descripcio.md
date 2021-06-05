@@ -46,7 +46,7 @@ Adaptarem la nostra app per que complisca els requisits d'una PWA i ens assegura
 
 ## Proves i millores de rendiment
 
-Escriurem els tests unitaris que necessitem i farem les proves d'integració i funcionals que calguen, així com les millores suggerides per l'eina de rendiment Lighthouse.
+Escriurem alguns tests, i farem les millores suggerides per l'eina de rendiment Lighthouse.
 
 ## Llançament
 
