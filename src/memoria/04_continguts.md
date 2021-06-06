@@ -22,7 +22,8 @@ Els usuaris amb permisos d'administrador també podran veure els següents conti
 - Membre (detall): la mateixa pàgina de Dades personals però amb els continguts de l'usuari seleccionat.
 - Pàgines: Llistat on editar i afegir pàgines.
 - Pàgina (detall): edició del contingut de la pàgina.
-- Tipus de servei: llistat de tipus de servei on afegir i editar
-- Tipus de servei (detall): formulari d'edició del tipus de servei
+- Etiquetes: llistat d'etiquetes on afegir i editar
+- Etiqueta (detall): formulari d'edició d'etiqueta
 - Serveis: llistat de serveis on afegir i editar
 - Servei (detall): formulari d'edició del tipus de servei
+- Famílies: llistat de famílies i IBAN
