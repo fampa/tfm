@@ -3,9 +3,9 @@
 Necessitarem els següents recursos:
 
 - Una base de dades postgreSQL gestionada per una API GraphQL, mitjançant el _framework Hasura_.
-- Un servidor NodeJS,
+- Firebase functions, Firebase Hosting i Firebase Storage
 - Un _frontend_ VueJS mitjançant el framework _Quasar_.
-- Un servei d'autenticació mitjançant _Firebase_.
+- Un servei d'autenticació mitjançant _Firebase Auth_.
   
 Per al desenvolupament s'han usat principalment dues màquines amb Sistema Operatiu Linux, i el IDE _Visual Studio Code_.
 
