@@ -80,8 +80,11 @@ El _commit_ on hem dut a terme aquesta refactorització ha propiciat 2.263 elimi
 - Frontend i Backend: <https://github.com/fampa/ampa-pwa>
 - Base de dades i GraphQL API: <https://github.com/fampa/ampa-graphql>
 - Landing page del projecte: <https://github.com/fampa/ampa-landing>
+- Presentació: <https://github.com/fampa/presentation>
+- Memòria del projecte: <https://github.com/fampa/tfm>
 
 ## URLs
 
-APP: <https://fampa-pwa.web.app/>
-Landing page: <https://ampa.netlify.app/>
+- APP: <https://fampa-pwa.web.app/>
+- Landing page: <https://ampa.netlify.app/>
+- Presentació: <https://fampa.github.io/presentation/>
